@@ -1,4 +1,4 @@
-from Week3.assignment.school import *
+from school import *
 
 def test_can_create_person():
     '''Test that the person object is created correctly'''
@@ -26,7 +26,7 @@ def test_can_make_student():
 def test_student_study():
     '''Test that the study method returns the correct string'''
     student = Student("John", 17, "Canada", "Computer Science", 3.5)
-    assert student.study() == "John is studying Computer Science with a current GPA of 3.5"
+    assert student.study() == "John is studying Computer Science with a current GPA of 3.5."
 
 def test_can_make_staff():
     '''Test that the staff object is created correctly'''

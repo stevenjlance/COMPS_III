@@ -13,7 +13,7 @@ class Student(Person):
         self.gpa = gpa
     
     def study(self):
-        return f"{self.name} is studying {self.major} with a current GPA of {self.gpa}"
+        return f"{self.name} is studying {self.major} with a current GPA of {self.gpa}."
 
 class Staff(Person):
     def __init__(self, name, age, country, position, department):
