@@ -27,6 +27,7 @@ class Book:
             status = "Available"
         return f"{self.title} by {self.author} - {self.genre} ({status})"
 
+# 2 Create a Textbook class that inherits from the Book class.
 class Textbook(Book):
     def __init__(self, title, author, subject, edition):
         Book.__init__(self, title, author, "Textbook")
@@ -41,11 +42,6 @@ class Textbook(Book):
         else:
             return "Incorrect password. Solutions not accessed."
     
-    def __str__(self):
-        # Build on parent's __str__ method so we can practice DRY principles and not recreate the conditional statement.
-        basic_info = super().__str__()
-        return f"{basic_info}\nSubject: {self.subject}, Edition: {self.edition}"
-
 class GraphicNovel(Book):
     def __init__(self, title, author, illustrator, color=True):
         Book.__init__(self, title, author, "Graphic Novel")
@@ -57,14 +53,3 @@ class GraphicNovel(Book):
             return f'Illustrated by {self.illustrator} in color.'
         else:
             return f'Illustrated by {self.illustrator} in black and white.'
-
-    def __str__(self):
-        basic_info = super().__str__()
-        return f"{basic_info}\nIllustrated by: {self.illustrator}"
-
-math_book = Textbook("Algebra Foundations", "Dr. Smith", "Mathematics", "3rd")
-print(math_book)
-print(math_book.access_solutions("1234"))
-# manga = GraphicNovel("One Piece Vol. 1", "Eiichiro Oda", "Eiichiro Oda")
-# print(manga)
-# print(manga.get_art_details())
