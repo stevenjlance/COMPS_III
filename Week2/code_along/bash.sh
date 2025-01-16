@@ -2,12 +2,12 @@
 mkdir python_classes
 # 2. Navigate to the folder
 cd python_classes
-#  3. Create two files called `library.py` and `main.py`.
-touch library.py main.py
+#  3. Create two files called `app.py` and `main.py`.
+touch app.py main.py
 
-# Go to library.py
+# Go to app.py
 
-# 11. Run the main.py file
+# 12. Run the main.py file
 python3 main.py
 
-# Go to library.py
+# Go to app.py
