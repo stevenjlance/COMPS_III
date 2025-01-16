@@ -39,17 +39,17 @@ def test_cannot_directly_access_id():
 
 def test_undergraduate_student():
     '''Test that the undergraduate student object is created correctly'''
-    undergrad_student = UndergraduateStudent("John", "Computer Science", [3.5, 4.0, 3.0], 22)
-    assert undergrad_student.name == "John"
-    assert undergrad_student.major == "Computer Science"
+    undergrad_student = UndergraduateStudent("Roberto", "Game Design", [3.5, 4.0, 3.0], 22)
+    assert undergrad_student.name == "Roberto"
+    assert undergrad_student.major == "Game Design"
     assert undergrad_student.gpa == [3.5, 4.0, 3.0]
     assert undergrad_student.age == 22
-    assert undergrad_student.is_in_good_standing() == "John is in good academic standing."
+    assert undergrad_student.is_in_good_standing() == "Roberto is in good academic standing."
 
 def test_undergraduate_polymorphism():
     '''Test that the __str__ method returns the correct value for undergraduate students'''
-    undergrad_student = UndergraduateStudent("John", "Computer Science", [3.5, 4.0, 3.0], 22)
-    assert str(undergrad_student) == "John is an undergraduate student studying Computer Science."
+    undergrad_student = UndergraduateStudent("Roberto", "Game Design", [3.5, 4.0, 3.0], 22)
+    assert str(undergrad_student) == "Roberto is an undergraduate student studying Game Design."
 
 def test_graduate_student():
     '''Test that the graduate student object is created correctly'''
