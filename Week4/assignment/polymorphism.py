@@ -37,8 +37,8 @@ class UndergraduateStudent(Student):
             return f"{self.name} is not in good academic standing."
 
 class GraduateStudent(Student):
-    def __init__(self, name, age, major, gpa):
-        Student.__init__(name, age, major, gpa)
+    def __init__(self, name, major, gpa_for_semesters):
+        Student.__init__(self, name, major, gpa_for_semesters)
     
     def __str__(self):
         return f"{self.name} is a graduate student studying {self.major}."
