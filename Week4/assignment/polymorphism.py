@@ -1,31 +1,27 @@
 class Student:
-    student_id = 1
     def __init__(self, name, major, gpa_for_semesters):
         self.name = name
         self.major = major
-        self.gpa = gpa_for_semesters
-        self.__student_id = Student.student_id
-        Student.student_id += 1
-
-    def get_student_id(self):
-        return self.__student_id
-    
-    def set_student_id(self, student_id):
-        self.__student_id = student_id
+        self.__gpa_for_semesters = gpa_for_semesters
     
     def __str__(self):
         return f"{self.name} is studying {self.major}."
     
+    def get_gpa(self):
+        return self.__gpa_for_semesters
+    
+    def set_gpa(self, gpa_for_semesters):
+        self.__gpa_for_semesters = gpa_for_semesters
+
     def calculate_average_gpa(self):
-        return sum(self.gpa) / len(self.gpa)
+        return sum(self.get_gpa()) / len(self.get_gpa())
     
     def is_in_good_standing(self):
         return f"{self.name} is a student."
 
 class UndergraduateStudent(Student):
-    def __init__(self, name, major, gpa_for_semesters, age):
+    def __init__(self, name, major, gpa_for_semesters):
         Student.__init__(self, name, major, gpa_for_semesters)
-        self.age = age
     
     def __str__(self):
         return f"{self.name} is an undergraduate student studying {self.major}."
@@ -48,3 +44,8 @@ class GraduateStudent(Student):
             return f"{self.name} is in good academic standing."
         else:
             return f"{self.name} is not in good academic standing."
+    
+student_1 = UndergraduateStudent("Adama", "marketing", [2.0, 3.3, 3.5])
+print(student_1) # “Adama is studying marketing using lectures and textbooks.”
+print(student_1.calculate_average_gpa()) # 2.933333
+print(student_1.is_in_good_standing()) # "Adama is in good academic standing.
