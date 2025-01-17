@@ -44,8 +44,3 @@ class GraduateStudent(Student):
             return f"{self.name} is in good academic standing."
         else:
             return f"{self.name} is not in good academic standing."
-    
-student_1 = UndergraduateStudent("Adama", "marketing", [2.0, 3.3, 3.5])
-print(student_1) # “Adama is studying marketing using lectures and textbooks.”
-print(student_1.calculate_average_gpa()) # 2.933333
-print(student_1.is_in_good_standing()) # "Adama is in good academic standing.
