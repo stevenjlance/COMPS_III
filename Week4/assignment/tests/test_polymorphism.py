@@ -6,6 +6,7 @@ def test_student():
     student1 = Student("John", "Computer Science", [3.5, 4.0, 3.0])
     assert student1.name == "John"
     assert student1.major == "Computer Science"
+    assert str(student1) == "John is studying Computer Science."
 
 def test_cannot_directly_access_gpa():
     student1 = Student("John", "Computer Science", [3.5, 4.0, 3.0])
