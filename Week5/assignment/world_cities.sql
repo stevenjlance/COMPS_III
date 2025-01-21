@@ -19,15 +19,14 @@ INSERT INTO cities (name, population, country) VALUES
 ("Osaka", 2752123, "Japan"),
 ("Beijing", 21542000, "China");
 
-SELECT * FROM cities;
+UPDATE cities SET population = 19400000 WHERE name = "Beijing";
 
-SELECT * FROM cities WHERE country = "Japan";
-
-UPDATE cities SET population = 1542000 WHERE name = "Beijing"; 
-SELECT * FROM cities WHERE name = "Beijing"; 
+-- SELECT * FROM cities WHERE name = "Beijing"; 
 
 DELETE FROM cities WHERE name = "New York";
 DELETE FROM cities WHERE name = "Cairo";
 DELETE FROM cities WHERE name = "Paris";
 
 SELECT * FROM cities;
+
+SELECT * FROM cities WHERE country = "Japan";
