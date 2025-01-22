@@ -1,3 +1,4 @@
+-- Solution to the exercise. Remove before releasing to students
 DROP TABLE IF EXISTS cities;
 
 CREATE TABLE cities (
