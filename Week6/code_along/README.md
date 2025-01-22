@@ -8,7 +8,7 @@ Last week we created `candidates` and `companies` databases using SQL for our Te
 
 By the end of this code along, our recruiting firm will be able to store information in a Python file so that it can be manipulated and utilized as part of a broader program.
 
-> **NOTE** This week’s code utilizes SQLite3 to implement the commands. This should have been installed last week, but here are the directions again if needed:
+> This week’s code utilizes SQLite3 to implement the commands. This should have been installed last week, but here are the directions again if needed:
 > - **Windows**: [Follow these directions](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm).
 > - **Apple**: Nothing at all! SQLite comes installed on all Macs. If for some reason you don’t have it, you can download it using [Homebrew](https://formulae.brew.sh/formula/sqlite).
 > - **Linux**: Follow [these directions](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-sqlite-on-ubuntu-20-04).
