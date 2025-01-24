@@ -1,7 +1,6 @@
 import sqlite3
-import pytest
 
-connection = sqlite3.connect('tech_talent.db')
+connection = sqlite3.connect('python_pulse.db')
 cursor = connection.cursor()
 
 # Drop tables if they exist
@@ -9,8 +8,9 @@ cursor.execute("DROP TABLE IF EXISTS users;")
 cursor.execute("DROP TABLE IF EXISTS profiles;")
 cursor.execute("DROP TABLE IF EXISTS goals;")
 cursor.execute("DROP TABLE IF EXISTS workouts;")
+cursor.execute("DROP TABLE IF EXISTS user_workout;")
 
-# Create User and Profile tables
+# Create User table
 cursor.execute('''CREATE TABLE IF NOT EXISTS users (
     user_id INTEGER PRIMARY KEY AUTOINCREMENT,
     username TEXT,
@@ -18,6 +18,7 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS users (
     email TEXT
 );''')
 
+# Create Profile tables
 cursor.execute('''CREATE TABLE IF NOT EXISTS profiles (
     profile_id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_id INTEGER,
@@ -28,7 +29,7 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS profiles (
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );''')
 
-# Insert sample data
+# Insert sample data for users and profiles
 cursor.execute('''INSERT INTO users (username, password, email) VALUES
     ('john_doe', 'password123', 'john_doe@gmail.com'),
     ('jane_smith', 'mypassword', 'jane@gmail.com'),
@@ -82,5 +83,25 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS user_workout (
     FOREIGN KEY (workout_id) REFERENCES workouts(workout_id)
 );''')
 
-# Commit the changes and close the connection
+# Add sample workouts
+cursor.execute('''INSERT INTO workouts (name, description, duration) VALUES
+    ('Morning Yoga', 'A refreshing morning yoga session.', 30),
+    ('HIIT Workout', 'High-Intensity Interval Training.', 45),
+    ('Weightlifting', 'Full body weightlifting session.', 60),
+    ('Cycling', 'Outdoor cycling for endurance.', 120),
+    ('Meditation', 'Guided meditation for relaxation.', 15);
+''')
+
+# Assign workouts to users
+cursor.execute('''INSERT INTO user_workout (user_id, workout_id) VALUES
+    (1, 1),
+    (1, 2),
+    (2, 3),
+    (3, 4),
+    (4, 5),
+    (5, 1),
+    (5, 2);
+''')
+
+# DON'T DELETE THIS LINE - Commit the changes and close the connection
 connection.commit()

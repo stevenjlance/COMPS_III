@@ -1,227 +1,390 @@
 import sqlite3
-from python_pulse import *
 import pytest
+import os
 
-# test that that user table is created
-def test_user_table_created():
-    connection = sqlite3.connect('tech_talent.db')
+# Test that the users table has been created
+def test_users_table_exists():
+    """Verify that the users table exists in the database."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
+    
+    # Check if users table exists
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='users';")
     result = cursor.fetchone()
-    assert result is not None
+    assert result is not None, "Users table does not exist"
+    
     connection.close()
 
-# Test that profile table is created
-def test_profile_table_created():
-    connection = sqlite3.connect('tech_talent.db')
+# Test that the users table has the correct columns
+def test_users_table_columns():
+    """Verify the schema of the users table."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
+    
+    # Get table info
+    cursor.execute("PRAGMA table_info(users);")
+    columns = cursor.fetchall()
+    
+    # Expected columns and their types
+    expected_columns = [
+        ('user_id', 'INTEGER', 1, None, 1),  # Primary key, autoincrement
+        ('username', 'TEXT', 0, None, 0),
+        ('password', 'TEXT', 0, None, 0),
+        ('email', 'TEXT', 0, None, 0)
+    ]
+    
+    # Check number of columns
+    assert len(columns) == 4, f"Expected 4 columns, found {len(columns)}"
+    
+    # Check each column's details
+    for expected, actual in zip(expected_columns, columns):
+        assert actual[1] == expected[0], f"Column name mismatch: expected {expected[0]}, got {actual[1]}"
+        assert actual[2] == expected[1], f"Column type mismatch for {actual[1]}"
+        assert actual[5] == expected[4], f"Primary key configuration mismatch for {actual[1]}"
+    
+    connection.close()
+
+# Test that the profile table has been created
+def test_profiles_table_exists():
+    """Verify that the profiles table exists in the database."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
+    cursor = connection.cursor()
+    
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='profiles';")
     result = cursor.fetchone()
-    assert result is not None
+    assert result is not None, "Profiles table does not exist"
+    
     connection.close()
 
-# Test that the user table has the correct columns
-def test_user_table_columns():
-    connection = sqlite3.connect('tech_talent.db')
+# Test that the profiles table has the correct columns
+def test_profiles_table_columns():
+    """Verify the schema of the profiles table."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
-    cursor.execute("PRAGMA table_info(users);")
-    columns = [column[1] for column in cursor.fetchall()]
-    expected_columns = ['user_id', 'username', 'password', 'email']
-    assert sorted(columns) == sorted(expected_columns)
-    connection.close()
-
-# Test that the profile table has the correct columns
-def test_profile_table_columns():
-    connection = sqlite3.connect('tech_talent.db')
-    cursor = connection.cursor()
+    
+    # Get table info
     cursor.execute("PRAGMA table_info(profiles);")
-    columns = [column[1] for column in cursor.fetchall()]
-    expected_columns = ['profile_id', 'user_id', 'height', 'weight', 'age', 'notes']
-    assert sorted(columns) == sorted(expected_columns)
+    columns = cursor.fetchall()
+    
+    # Expected columns and their types
+    expected_columns = [
+        ('profile_id', 'INTEGER', 1, None, 1),  # Primary key, autoincrement
+        ('user_id', 'INTEGER', 0, None, 0),
+        ('height', 'INTEGER', 0, None, 0),
+        ('weight', 'INTEGER', 0, None, 0),
+        ('age', 'INTEGER', 0, None, 0),
+        ('notes', 'TEXT', 0, None, 0)
+    ]
+    
+    # Check number of columns
+    assert len(columns) == 6, f"Expected 6 columns, found {len(columns)}"
+    
+    # Check each column's details
+    for expected, actual in zip(expected_columns, columns):
+        assert actual[1] == expected[0], f"Column name mismatch: expected {expected[0]}, got {actual[1]}"
+        assert actual[2] == expected[1], f"Column type mismatch for {actual[1]}"
+        assert actual[5] == expected[4], f"Primary key configuration mismatch for {actual[1]}"
+    
     connection.close()
 
-# Test that user and profile table have one-to-one relationship
-def test_one_to_one_relationship():
-    connection = sqlite3.connect('tech_talent.db')
+# Test that the foreign key constraint is set up correctly
+def test_profiles_foreign_key():
+    """Verify the foreign key constraint on user_id."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
-    cursor.execute("SELECT COUNT(*) FROM users;")
-    user_count = cursor.fetchone()[0]
-    cursor.execute("SELECT COUNT(*) FROM profiles;")
-    profile_count = cursor.fetchone()[0]
-    assert user_count == profile_count
+    
+    # Check foreign key constraints
+    cursor.execute("PRAGMA foreign_key_list(profiles);")
+    foreign_keys = cursor.fetchall()
+    
+    assert len(foreign_keys) == 1, "Expected one foreign key constraint"
+    
+    foreign_key = foreign_keys[0]
+    assert foreign_key[2] == 'users', "Foreign key should reference users table"
+    assert foreign_key[3] == 'user_id', "Foreign key should reference user_id column"
+    
     connection.close()
 
-# Test that you will get an error if you try to have multiple profiles for a user
-def test_user_has_only_one_profile():
-    connection = sqlite3.connect('tech_talent.db')
+# Test that users data is inserted correctly
+def test_users_data():
+    """Verify the inserted users data."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
-    try:
-        cursor.execute('''INSERT INTO profiles (user_id, height, weight, age, notes) VALUES
-            (1, 180, 75, 28, 'Loves hiking and outdoor activities.');''')
-        connection.commit()
-        cursor.execute('''INSERT INTO profiles (user_id, height, weight, age, notes) VALUES
-            (1, 165, 60, 25, 'Enjoys painting and art.');''')
-        connection.commit()
-    except sqlite3.IntegrityError:
-        assert True
-    finally:
-        connection.close()
+    
+    # Fetch all users
+    cursor.execute("SELECT username, password, email FROM users ORDER BY username")
+    users = cursor.fetchall()
+    
+    # Expected users data
+    expected_users = [
+        ('alice_jones', 'alicepassword', 'ajones@yahoo.com'),
+        ('bob_brown', 'bobpassword', 'bobby@yahoo.com'),
+        ('jane_smith', 'mypassword', 'jane@gmail.com'),
+        ('john_doe', 'password123', 'john_doe@gmail.com'),
+        ('rebecca_charles', 'rebeccapassword', 'becky123@gmail.com')
+    ]
+    
+    assert len(users) == 5, "Expected 5 users"
+    assert sorted(users) == expected_users, "Users data does not match expected values"
+    
+    connection.close()
 
-# Test that you goal table is created
-def test_goal_table_created():
-    connection = sqlite3.connect('tech_talent.db')
+# Test that profiles data is inserted correctly
+def test_profiles_data():
+    """Verify the inserted profiles data."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
+    
+    # Fetch all profiles
+    cursor.execute("SELECT user_id, height, weight, age, notes FROM profiles ORDER BY user_id")
+    profiles = cursor.fetchall()
+    
+    # Expected profiles data
+    expected_profiles = [
+        (1, 180, 75, 28, 'Loves hiking and outdoor activities.'),
+        (2, 165, 60, 25, 'Enjoys painting and art.'),
+        (3, 170, 65, 30, 'Passionate about technology and coding.'),
+        (4, 175, 80, 22, 'Avid reader and writer.'),
+        (5, 160, 50, 27, 'Fitness enthusiast and gym lover.')
+    ]
+    
+    assert len(profiles) == 5, "Expected 5 profiles"
+    assert profiles == expected_profiles, "Profiles data does not match expected values"
+    
+    connection.close()
+
+# Test that the goals table has been created
+def test_goals_table_exists():
+    """Verify that the goals table exists in the database."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
+    cursor = connection.cursor()
+    
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='goals';")
     result = cursor.fetchone()
-    assert result is not None
+    assert result is not None, "Goals table does not exist"
+    
     connection.close()
 
-# Test that the goal table has the correct columns
-def test_goal_table_columns():
-    connection = sqlite3.connect('tech_talent.db')
+# Test that the goals table has the correct columns
+def test_goals_table_columns():
+    """Verify the schema of the goals table."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
+    
+    # Get table info
     cursor.execute("PRAGMA table_info(goals);")
-    columns = [column[1] for column in cursor.fetchall()]
-    expected_columns = ['goal_id', 'name', 'target_value', 'user_id']
-    assert sorted(columns) == sorted(expected_columns)
+    columns = cursor.fetchall()
+    
+    # Expected columns and their types
+    expected_columns = [
+        ('goal_id', 'INTEGER', 1, None, 1),  # Primary key, autoincrement
+        ('name', 'TEXT', 0, None, 0),
+        ('target_value', 'INTEGER', 0, None, 0),
+        ('user_id', 'INTEGER', 0, None, 0)
+    ]
+    
+    # Check number of columns
+    assert len(columns) == 4, f"Expected 4 columns, found {len(columns)}"
+    
+    # Check each column's details
+    for expected, actual in zip(expected_columns, columns):
+        assert actual[1] == expected[0], f"Column name mismatch: expected {expected[0]}, got {actual[1]}"
+        assert actual[2] == expected[1], f"Column type mismatch for {actual[1]}"
+        assert actual[5] == expected[4], f"Primary key configuration mismatch for {actual[1]}"
+    
     connection.close()
 
-# Test that user and goal table have one-to-many relationship
-def test_one_to_many_relationship():
-    connection = sqlite3.connect('tech_talent.db')
+# Test that the foreign key constraint is set up correctly
+def test_goals_foreign_key():
+    """Verify the foreign key constraint on user_id."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
-    cursor.execute("SELECT COUNT(*) FROM users;")
-    user_count = cursor.fetchone()[0]
-    cursor.execute("SELECT COUNT(*) FROM goals;")
-    goal_count = cursor.fetchone()[0]
-    assert user_count < goal_count
+    
+    # Check foreign key constraints
+    cursor.execute("PRAGMA foreign_key_list(goals);")
+    foreign_keys = cursor.fetchall()
+    
+    assert len(foreign_keys) == 1, "Expected one foreign key constraint"
+    
+    foreign_key = foreign_keys[0]
+    assert foreign_key[2] == 'users', "Foreign key should reference users table"
+    assert foreign_key[3] == 'user_id', "Foreign key should reference user_id column"
+    
     connection.close()
 
-# Test that you will get an error if you try to have multiple goals for a user
-def test_user_has_only_one_goal():
-    connection = sqlite3.connect('tech_talent.db')
+# Test that goals data is inserted correctly
+def test_goals_data():
+    """Verify the inserted goals data."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
-    try:
-        cursor.execute('''INSERT INTO goals (name, target_value, user_id) VALUES
-            ('Run 5km', 5, 1);''')
-        connection.commit()
-        cursor.execute('''INSERT INTO goals (name, target_value, user_id) VALUES
-            ('Lose 10kg', 10, 1);''')
-        connection.commit()
-    except sqlite3.IntegrityError:
-        assert True
-    finally:
-        connection.close()
+    
+    # Fetch all goals
+    cursor.execute("SELECT name, target_value, user_id FROM goals ORDER BY goal_id")
+    goals = cursor.fetchall()
+    
+    # Expected goals data
+    expected_goals = [
+        ('Run 5km', 5, 1),
+        ('Lose 10kg', 10, 2),
+        ('Lift 100kg 3x', 100, 3),
+        ('Meditate daily', 1, 5),
+        ('Cycle 100km', 100, 4),
+        ('Complete a marathon', 42, 5),
+        ('Run 5 km', 5, 5)
+    ]
+    
+    assert len(goals) == 7, "Expected 7 goals"
+    assert goals == expected_goals, "Goals data does not match expected values"
+    
+    connection.close()
 
-# Test that workout table is created
-def test_workout_table_created():
-    connection = sqlite3.connect('tech_talent.db')
+# Test that the workouts table has been created
+def test_workouts_table_exists():
+    """Verify that the workouts table exists in the database."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
+    
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='workouts';")
     result = cursor.fetchone()
-    assert result is not None
+    assert result is not None, "Workouts table does not exist"
+    
     connection.close()
 
-# Test that the workout table has the correct columns
-def test_workout_table_columns():
-    connection = sqlite3.connect('tech_talent.db')
+# Test that the user_workout table has been created
+def test_user_workout_table_exists():
+    """Verify that the user_workout table exists in the database."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
-    cursor.execute("PRAGMA table_info(workouts);")
-    columns = [column[1] for column in cursor.fetchall()]
-    expected_columns = ['workout_id', 'name', 'description', 'duration']
-    assert sorted(columns) == sorted(expected_columns)
-    connection.close()
-
-# Test that user_workout table is created
-def test_user_workout_table_created():
-    connection = sqlite3.connect('tech_talent.db')
-    cursor = connection.cursor()
+    
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='user_workout';")
     result = cursor.fetchone()
-    assert result is not None
-    connection.close()
-
-# Test that the user_workout table has the correct columns
-def test_user_workout_table_columns():
-    connection = sqlite3.connect('tech_talent.db')
-    cursor = connection.cursor()
-    cursor.execute("PRAGMA table_info(user_workout);")
-    columns = [column[1] for column in cursor.fetchall()]
-    expected_columns = ['user_id', 'workout_id']
-    assert sorted(columns) == sorted(expected_columns)
-    connection.close()
-
-import sqlite3
-import pytest
-
-@pytest.fixture
-def setup_database():
-    # Setup database and create tables
-    connection = sqlite3.connect(":memory:")  # Use in-memory database for testing
-    cursor = connection.cursor()
-
-    # Create tables
-    cursor.execute('''CREATE TABLE users (
-        user_id INTEGER PRIMARY KEY AUTOINCREMENT,
-        username TEXT
-    );''')
+    assert result is not None, "User_workout table does not exist"
     
-    cursor.execute('''CREATE TABLE workouts (
-        workout_id INTEGER PRIMARY KEY AUTOINCREMENT,
-        name TEXT
-    );''')
+    connection.close()
 
-    cursor.execute('''CREATE TABLE user_workout (
-        user_id INTEGER,
-        workout_id INTEGER,
-        PRIMARY KEY (user_id, workout_id),
-        FOREIGN KEY (user_id) REFERENCES users(user_id),
-        FOREIGN KEY (workout_id) REFERENCES workouts(workout_id)
-    );''')
+## Test that the workouts table has the correct columns
+def test_workouts_table_columns():
+    """Verify the schema of the workouts table."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
+    cursor = connection.cursor()
+    
+    cursor.execute("PRAGMA table_info(workouts);")
+    columns = cursor.fetchall()
+    
+    expected_columns = [
+        ('workout_id', 'INTEGER', 1, None, 1),
+        ('name', 'TEXT', 0, None, 0),
+        ('description', 'TEXT', 0, None, 0),
+        ('duration', 'INTEGER', 0, None, 0)
+    ]
+    
+    assert len(columns) == 4, f"Expected 4 columns, found {len(columns)}"
+    
+    for expected, actual in zip(expected_columns, columns):
+        assert actual[1] == expected[0], f"Column name mismatch: expected {expected[0]}, got {actual[1]}"
+        assert actual[2] == expected[1], f"Column type mismatch for {actual[1]}"
+        assert actual[5] == expected[4], f"Primary key configuration mismatch for {actual[1]}"
+    
+    connection.close()
 
-    # Insert sample data into users table
-    cursor.executemany('INSERT INTO users (username) VALUES (?);', [
-        ('john_doe',),
-        ('jane_smith',),
-        ('alice_jones',)
-    ])
+## Test that the user_workout table has the correct columns
+def test_user_workout_table_columns():
+    """Verify the schema of the user_workout table."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
+    cursor = connection.cursor()
+    
+    cursor.execute("PRAGMA table_info(user_workout);")
+    columns = cursor.fetchall()
+    
+    expected_columns = [
+        ('user_id', 'INTEGER', 0, None, 0),
+        ('workout_id', 'INTEGER', 0, None, 0)
+    ]
+    
+    assert len(columns) == 2, f"Expected 2 columns, found {len(columns)}"
+    
+    for expected, actual in zip(expected_columns, columns):
+        assert actual[1] == expected[0], f"Column name mismatch: expected {expected[0]}, got {actual[1]}"
+        assert actual[2] == expected[1], f"Column type mismatch for {actual[1]}"
+    
+    connection.close()
 
-    # Insert sample data into workouts table
-    cursor.executemany('INSERT INTO workouts (name) VALUES (?);', [
-        ('Yoga',),
-        ('HIIT',),
-        ('Cycling',)
-    ])
+# Test that the foreign key constraints are set up correctly
+def test_user_workout_foreign_keys():
+    """Verify foreign key constraints in user_workout table."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
+    cursor = connection.cursor()
+    
+    cursor.execute("PRAGMA foreign_key_list(user_workout);")
+    foreign_keys = cursor.fetchall()
+    
+    assert len(foreign_keys) == 2, "Expected two foreign key constraints"
+    
+    foreign_key_tables = {fk[2] for fk in foreign_keys}
+    assert foreign_key_tables == {'users', 'workouts'}, "Foreign keys should reference users and workouts tables"
+    
+    connection.close()
 
-    # Insert sample data into user_workout table
-    cursor.executemany('INSERT INTO user_workout (user_id, workout_id) VALUES (?, ?);', [
+# Test that workouts data is inserted correctly
+def test_workouts_data():
+    """Verify the inserted workouts data."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
+    cursor = connection.cursor()
+    
+    cursor.execute("SELECT name, description, duration FROM workouts ORDER BY workout_id")
+    workouts = cursor.fetchall()
+    
+    expected_workouts = [
+        ('Morning Yoga', 'A refreshing morning yoga session.', 30),
+        ('HIIT Workout', 'High-Intensity Interval Training.', 45),
+        ('Weightlifting', 'Full body weightlifting session.', 60),
+        ('Cycling', 'Outdoor cycling for endurance.', 120),
+        ('Meditation', 'Guided meditation for relaxation.', 15)
+    ]
+    
+    assert len(workouts) == 5, "Expected 5 workouts"
+    assert workouts == expected_workouts, "Workouts data does not match expected values"
+    
+    connection.close()
+
+# Test that user_workout data is inserted correctly
+def test_user_workout_data():
+    """Verify the inserted user_workout data."""
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
+    connection = sqlite3.connect(db_path)
+    cursor = connection.cursor()
+    
+    cursor.execute("SELECT user_id, workout_id FROM user_workout ORDER BY user_id, workout_id")
+    user_workouts = cursor.fetchall()
+    
+    expected_user_workouts = [
         (1, 1),
         (1, 2),
-        (2, 2),
-        (3, 1),
-        (3, 3)
-    ])
-
-    connection.commit()
-    yield connection  # Provide the connection to tests
+        (2, 3),
+        (3, 4),
+        (4, 5),
+        (5, 1),
+        (5, 2)
+    ]
+    
+    assert len(user_workouts) == 7, "Expected 7 user_workout entries"
+    assert user_workouts == expected_user_workouts, "User_workout data does not match expected values"
+    
     connection.close()
-
-def test_users_associated_with_multiple_workouts(setup_database):
-    connection = setup_database
-    cursor = connection.cursor()
-
-    # Query to check how many workouts are associated with user_id 1
-    cursor.execute('SELECT workout_id FROM user_workout WHERE user_id = 1;')
-    workouts = cursor.fetchall()
-    assert len(workouts) == 2  # User 1 should have 2 workouts (Yoga and HIIT)
-    assert set(workout[0] for workout in workouts) == {1, 2}
-
-def test_workouts_associated_with_multiple_users(setup_database):
-    connection = setup_database
-    cursor = connection.cursor()
-
-    # Query to check how many users are associated with workout_id 2
-    cursor.execute('SELECT user_id FROM user_workout WHERE workout_id = 2;')
-    users = cursor.fetchall()
-    assert len(users) == 2  # Workout 2 (HIIT) should have 2 users (User 1 and User 2)
-    assert set(user[0] for user in users) == {1, 2}

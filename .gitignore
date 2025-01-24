@@ -67,3 +67,6 @@ staticfiles/
 # Anaconda
 *.conda
 *.ipynb
+
+# Database files
+*.db
