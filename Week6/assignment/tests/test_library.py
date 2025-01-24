@@ -1,9 +1,11 @@
 from library import *
 import sqlite3
+import os
 
 # Test that the books table has been created
 def test_books_table_exists():
-    connection = sqlite3.connect('library.db')
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'library.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='books';")
     result = cursor.fetchone()
@@ -17,7 +19,8 @@ def test_fiction_genre():
 
 # Test that the Handmaids Tale has been updated to a publication year of 1985
 def test_handmaids_tale_update():
-    connection = sqlite3.connect('library.db')
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'library.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
     # Fetch the updated row
     updated = cursor.execute("SELECT * FROM books WHERE title = 'The Handmaids Tale';").fetchone()
@@ -26,9 +29,10 @@ def test_handmaids_tale_update():
     assert updated[3] == 1985
     connection.close()
 
-# Verify that 1943 has been deleted
+# Verify that 1984 has been deleted
 def test_1984_deletion():
-    connection = sqlite3.connect('library.db')
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'library.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
     # Attempt to fetch the deleted row
     deleted = cursor.execute("SELECT * FROM books WHERE title = '1984';").fetchone()
@@ -39,7 +43,8 @@ def test_1984_deletion():
 
 # Verify the table has 9 rows and that the rows have the correct values
 def test_final_book_table_length():
-    connection = sqlite3.connect('library.db')
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'library.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
     # Fetch all rows
     rows = cursor.execute("SELECT * FROM books;").fetchall()
@@ -51,7 +56,8 @@ def test_final_book_table_length():
 
 
 def test_final_books_table_contents():
-    connection = sqlite3.connect('library.db')
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'library.db')
+    connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
     # Fetch all rows
     rows = cursor.execute("SELECT * FROM books;").fetchall()

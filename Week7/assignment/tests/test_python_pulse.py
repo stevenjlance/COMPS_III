@@ -1,5 +1,4 @@
 import sqlite3
-import pytest
 import os
 
 # Test that the users table has been created

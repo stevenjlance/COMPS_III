@@ -33,21 +33,11 @@ print(test_data)
 
 fiction = cursor.execute("SELECT * FROM books WHERE genre = 'Fiction';").fetchall()
 
-# Update the Handmaids Tale to a publication date of 1985.
+# # Update the Handmaids Tale to a publication date of 1985.
 cursor.execute("UPDATE books SET publication_year = 1985 WHERE title = 'The Handmaids Tale';")
 
-# Delete War and Peace
+# # Delete War and Peace
 cursor.execute("DELETE FROM books WHERE title = '1984';")
-
-
-
-
-
-
-
-
-
-
 
 # This needs to be the last line of the file for the tests to work!
 connection.commit()
