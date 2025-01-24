@@ -274,7 +274,7 @@ def test_user_workout_table_exists():
     
     connection.close()
 
-## Test that the workouts table has the correct columns
+# Test that the workouts table has the correct columns
 def test_workouts_table_columns():
     """Verify the schema of the workouts table."""
     db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
@@ -300,7 +300,7 @@ def test_workouts_table_columns():
     
     connection.close()
 
-## Test that the user_workout table has the correct columns
+# Test that the user_workout table has the correct columns
 def test_user_workout_table_columns():
     """Verify the schema of the user_workout table."""
     db_path = os.path.join(os.path.dirname(__file__), '..', 'python_pulse.db')
