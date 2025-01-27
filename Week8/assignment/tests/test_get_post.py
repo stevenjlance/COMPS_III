@@ -44,7 +44,7 @@ def test_get_request_success(json_placeholder, mock_response):
     assert result['headers'] == {"Content-Type": "application/json"}
     assert result['content'] == b'[{"userId": 1, "id": 1, "title": "test title", "body": "test body"}]'
 
-def test_get_request_called_with_correct_url(json_placeholder, mocker):
+def test_get_request_with_correct_url(json_placeholder, mocker):
     """Test if get_request method calls requests.get with the correct URL"""
     mock_get = mocker.patch('requests.get')
     url = "https://jsonplaceholder.typicode.com/posts"
