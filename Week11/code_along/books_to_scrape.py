@@ -99,6 +99,8 @@ plt.savefig('bar_chart.png')
 
 # Histogram: Price Distribution
 # 14. Create a histogram. Include some additional styling as well
+# Use this to indicate a new figure
+plt.figure()
 plt.hist(df['price'], color='skyblue', edgecolor='black')
 plt.title('Price Distribution of Books')
 plt.xlabel('Price')
@@ -107,6 +109,7 @@ plt.savefig('histogram.png')
 
 # Scatter Plot: Price vs. Rating
 # 15. Create a scatter plot of rating vs. price.
+plt.figure()
 plt.scatter(df['rating'], df['price'])
 plt.title('Price vs. Rating')
 plt.xlabel('Rating (Stars)')

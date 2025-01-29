@@ -1,0 +1,1001 @@
+timestamp,artist,song,genre,duration_seconds,full_duration,completion_rate,mood,activity,day_of_week,hour,month
+2024-01-01 03:35:00,Tame Impala,Let It Happen,Indie Rock,206,206,1.0,Chill,Relaxing,Monday,3,January
+2024-01-01 15:01:00,Arctic Monkeys,Do I Wanna Know?,Alternative,219,219,1.0,Happy,Working Out,Monday,15,January
+2024-01-01 17:31:00,Kendrick Lamar,DNA.,Hip Hop,151,216,0.7,Melancholic,Commuting,Monday,17,January
+2024-01-01 18:52:00,The Strokes,The Adults Are Talking,Alternative,215,215,1.0,Melancholic,Partying,Monday,18,January
+2024-01-02 02:17:00,Taylor Swift,Anti-Hero,Pop,130,186,0.7,Energetic,Relaxing,Tuesday,2,January
+2024-01-02 11:59:00,The Strokes,The Adults Are Talking,Alternative,140,280,0.5,Melancholic,Working,Tuesday,11,January
+2024-01-03 16:09:00,The Weeknd,Save Your Tears,Pop,249,249,1.0,Melancholic,Working Out,Wednesday,16,January
+2024-01-03 20:58:00,Bonobo,Cirrus,Electronic,229,229,1.0,Chill,Partying,Wednesday,20,January
+2024-01-04 11:14:00,Arctic Monkeys,Do I Wanna Know?,Alternative,236,236,1.0,Focused,Commuting,Thursday,11,January
+2024-01-04 11:59:00,Fleet Foxes,Mykonos,Folk,240,240,1.0,Energetic,Working,Thursday,11,January
+2024-01-04 21:56:00,Arctic Monkeys,505,Alternative,220,220,1.0,Energetic,Commuting,Thursday,21,January
+2024-01-05 02:21:00,Arctic Monkeys,Do I Wanna Know?,Alternative,289,289,1.0,Focused,Working Out,Friday,2,January
+2024-01-05 11:44:00,Kamasi Washington,The Next Step,Jazz,140,200,0.7,Melancholic,Working Out,Friday,11,January
+2024-01-06 15:55:00,Bonobo,Cirrus,Electronic,202,202,1.0,Energetic,Working Out,Saturday,15,January
+2024-01-07 13:52:00,The Strokes,The Adults Are Talking,Alternative,158,226,0.7,Focused,Partying,Sunday,13,January
+2024-01-07 16:37:00,Bonobo,Kerala,Electronic,197,197,1.0,Chill,Working,Sunday,16,January
+2024-01-08 09:31:00,Taylor Swift,Anti-Hero,Pop,255,255,1.0,Chill,Commuting,Monday,9,January
+2024-01-08 15:43:00,Fleet Foxes,White Winter Hymnal,Folk,187,187,1.0,Melancholic,Commuting,Monday,15,January
+2024-01-09 20:43:00,The Weeknd,Blinding Lights,Pop,207,207,1.0,Chill,Partying,Tuesday,20,January
+2024-01-10 12:51:00,Tame Impala,The Less I Know the Better,Indie Rock,85,284,0.3,Happy,Relaxing,Wednesday,12,January
+2024-01-11 05:43:00,Beach House,Lazuli,Indie Rock,183,183,1.0,Energetic,Relaxing,Thursday,5,January
+2024-01-12 00:56:00,Beach House,On The Sea,Indie Rock,237,237,1.0,Melancholic,Relaxing,Friday,0,January
+2024-01-12 03:41:00,The Strokes,Reptilia,Alternative,274,274,1.0,Energetic,Partying,Friday,3,January
+2024-01-12 11:35:00,Kamasi Washington,The Next Step,Jazz,247,247,1.0,Focused,Relaxing,Friday,11,January
+2024-01-12 21:43:00,Fleet Foxes,Mykonos,Folk,194,194,1.0,Happy,Working,Friday,21,January
+2024-01-14 07:29:00,Arctic Monkeys,505,Alternative,202,202,1.0,Energetic,Working,Sunday,7,January
+2024-01-14 15:07:00,Kamasi Washington,The Garden Path,Jazz,204,204,1.0,Happy,Working Out,Sunday,15,January
+2024-01-15 03:49:00,The Strokes,The Adults Are Talking,Alternative,210,210,1.0,Happy,Working,Monday,3,January
+2024-01-15 15:07:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,277,277,1.0,Melancholic,Commuting,Monday,15,January
+2024-01-15 18:41:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,209,209,1.0,Focused,Working Out,Monday,18,January
+2024-01-16 00:50:00,Kamasi Washington,Truth,Jazz,143,205,0.7,Happy,Relaxing,Tuesday,0,January
+2024-01-16 16:41:00,Kendrick Lamar,N95,Hip Hop,207,207,1.0,Focused,Partying,Tuesday,16,January
+2024-01-17 00:51:00,Beach House,On The Sea,Indie Rock,165,236,0.7,Chill,Commuting,Wednesday,0,January
+2024-01-17 06:29:00,The Strokes,Someday,Alternative,187,187,1.0,Melancholic,Working,Wednesday,6,January
+2024-01-17 09:44:00,The Strokes,Last Nite,Alternative,265,265,1.0,Focused,Partying,Wednesday,9,January
+2024-01-17 12:22:00,Taylor Swift,Anti-Hero,Pop,284,284,1.0,Happy,Partying,Wednesday,12,January
+2024-01-17 16:42:00,The Strokes,Last Nite,Alternative,214,214,1.0,Melancholic,Working Out,Wednesday,16,January
+2024-01-18 19:55:00,Bonobo,Kerala,Electronic,234,234,1.0,Chill,Working Out,Thursday,19,January
+2024-01-19 01:46:00,Arctic Monkeys,505,Alternative,222,222,1.0,Energetic,Working Out,Friday,1,January
+2024-01-20 07:18:00,Beach House,Lazuli,Indie Rock,236,236,1.0,Focused,Commuting,Saturday,7,January
+2024-01-20 14:51:00,Bonobo,Cirrus,Electronic,280,280,1.0,Chill,Relaxing,Saturday,14,January
+2024-01-20 16:08:00,The Strokes,The Adults Are Talking,Alternative,227,227,1.0,Focused,Commuting,Saturday,16,January
+2024-01-20 16:45:00,Bonobo,Break Apart,Electronic,298,298,1.0,Focused,Relaxing,Saturday,16,January
+2024-01-21 15:25:00,Fleet Foxes,Mykonos,Folk,204,204,1.0,Energetic,Commuting,Sunday,15,January
+2024-01-21 16:17:00,Fleet Foxes,Blue Ridge Mountains,Folk,274,274,1.0,Melancholic,Commuting,Sunday,16,January
+2024-01-22 00:17:00,Bonobo,Kerala,Electronic,221,221,1.0,Chill,Working Out,Monday,0,January
+2024-01-22 01:55:00,The Strokes,Last Nite,Alternative,218,218,1.0,Happy,Relaxing,Monday,1,January
+2024-01-22 04:55:00,Tame Impala,Lost in Yesterday,Indie Rock,298,298,1.0,Happy,Working Out,Monday,4,January
+2024-01-22 14:05:00,Tame Impala,The Less I Know the Better,Indie Rock,298,298,1.0,Chill,Commuting,Monday,14,January
+2024-01-22 21:56:00,Kamasi Washington,Truth,Jazz,297,297,1.0,Chill,Relaxing,Monday,21,January
+2024-01-22 22:25:00,The Weeknd,Die For You,Pop,213,213,1.0,Energetic,Working Out,Monday,22,January
+2024-01-23 18:06:00,Kendrick Lamar,DNA.,Hip Hop,290,290,1.0,Melancholic,Relaxing,Tuesday,18,January
+2024-01-24 08:35:00,Bonobo,Break Apart,Electronic,288,288,1.0,Chill,Relaxing,Wednesday,8,January
+2024-01-24 12:08:00,Tame Impala,Borderline,Indie Rock,250,250,1.0,Focused,Partying,Wednesday,12,January
+2024-01-24 12:32:00,Kamasi Washington,The Garden Path,Jazz,283,283,1.0,Focused,Working,Wednesday,12,January
+2024-01-24 12:56:00,Bonobo,Linked,Electronic,249,249,1.0,Energetic,Commuting,Wednesday,12,January
+2024-01-25 00:00:00,The Strokes,Someday,Alternative,289,289,1.0,Chill,Working,Thursday,0,January
+2024-01-25 02:21:00,Fleet Foxes,Mykonos,Folk,284,284,1.0,Focused,Relaxing,Thursday,2,January
+2024-01-25 05:51:00,Kamasi Washington,The Garden Path,Jazz,85,286,0.3,Melancholic,Partying,Thursday,5,January
+2024-01-25 10:27:00,Bonobo,Cirrus,Electronic,237,237,1.0,Chill,Partying,Thursday,10,January
+2024-01-25 19:09:00,Beach House,Space Song,Indie Rock,207,207,1.0,Energetic,Commuting,Thursday,19,January
+2024-01-25 23:14:00,Taylor Swift,Cardigan,Pop,245,245,1.0,Chill,Working Out,Thursday,23,January
+2024-01-26 02:40:00,The Strokes,Last Nite,Alternative,189,189,1.0,Focused,Relaxing,Friday,2,January
+2024-01-26 05:21:00,Kendrick Lamar,Money Trees,Hip Hop,202,202,1.0,Focused,Working,Friday,5,January
+2024-01-26 06:44:00,Kendrick Lamar,Alright,Hip Hop,227,227,1.0,Chill,Partying,Friday,6,January
+2024-01-26 11:23:00,Taylor Swift,Cardigan,Pop,250,250,1.0,Energetic,Relaxing,Friday,11,January
+2024-01-26 16:59:00,The Weeknd,Blinding Lights,Pop,206,206,1.0,Energetic,Partying,Friday,16,January
+2024-01-26 21:05:00,Taylor Swift,Anti-Hero,Pop,193,193,1.0,Focused,Relaxing,Friday,21,January
+2024-01-27 18:58:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,255,255,1.0,Melancholic,Working,Saturday,18,January
+2024-01-28 03:44:00,Arctic Monkeys,Do I Wanna Know?,Alternative,265,265,1.0,Chill,Partying,Sunday,3,January
+2024-01-28 04:28:00,Tame Impala,Lost in Yesterday,Indie Rock,256,256,1.0,Happy,Relaxing,Sunday,4,January
+2024-01-28 21:09:00,Kamasi Washington,The Next Step,Jazz,260,260,1.0,Energetic,Relaxing,Sunday,21,January
+2024-01-29 06:56:00,Tame Impala,The Less I Know the Better,Indie Rock,87,290,0.3,Energetic,Relaxing,Monday,6,January
+2024-01-29 11:45:00,Tame Impala,Borderline,Indie Rock,269,269,1.0,Focused,Working Out,Monday,11,January
+2024-01-30 04:56:00,Taylor Swift,Anti-Hero,Pop,265,265,1.0,Focused,Relaxing,Tuesday,4,January
+2024-01-30 13:58:00,Kamasi Washington,The Next Step,Jazz,132,264,0.5,Energetic,Working Out,Tuesday,13,January
+2024-01-30 16:07:00,Kamasi Washington,Truth,Jazz,180,180,1.0,Energetic,Working,Tuesday,16,January
+2024-01-31 12:05:00,The Strokes,Reptilia,Alternative,284,284,1.0,Melancholic,Working Out,Wednesday,12,January
+2024-01-31 15:30:00,Beach House,On The Sea,Indie Rock,243,243,1.0,Focused,Relaxing,Wednesday,15,January
+2024-01-31 18:51:00,Arctic Monkeys,505,Alternative,285,285,1.0,Melancholic,Working Out,Wednesday,18,January
+2024-02-01 02:00:00,Bonobo,Cirrus,Electronic,226,226,1.0,Happy,Working Out,Thursday,2,February
+2024-02-01 04:56:00,The Strokes,The Adults Are Talking,Alternative,241,241,1.0,Melancholic,Working,Thursday,4,February
+2024-02-01 12:46:00,The Strokes,Someday,Alternative,68,228,0.3,Focused,Commuting,Thursday,12,February
+2024-02-01 18:20:00,Beach House,Space Song,Indie Rock,270,270,1.0,Chill,Commuting,Thursday,18,February
+2024-02-01 22:55:00,Beach House,On The Sea,Indie Rock,246,246,1.0,Energetic,Working,Thursday,22,February
+2024-02-02 05:23:00,Fleet Foxes,Blue Ridge Mountains,Folk,80,267,0.3,Happy,Relaxing,Friday,5,February
+2024-02-02 17:11:00,The Strokes,Last Nite,Alternative,297,297,1.0,Chill,Working,Friday,17,February
+2024-02-03 02:05:00,Bonobo,Cirrus,Electronic,239,239,1.0,Happy,Working,Saturday,2,February
+2024-02-03 13:20:00,Kendrick Lamar,Alright,Hip Hop,222,222,1.0,Energetic,Commuting,Saturday,13,February
+2024-02-04 14:47:00,The Weeknd,Die For You,Pop,64,214,0.3,Energetic,Working,Sunday,14,February
+2024-02-05 05:55:00,Tame Impala,The Less I Know the Better,Indie Rock,189,189,1.0,Energetic,Working,Monday,5,February
+2024-02-05 07:41:00,Bonobo,Break Apart,Electronic,277,277,1.0,Melancholic,Working,Monday,7,February
+2024-02-05 21:03:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,238,238,1.0,Energetic,Working Out,Monday,21,February
+2024-02-05 21:47:00,Arctic Monkeys,505,Alternative,262,262,1.0,Energetic,Partying,Monday,21,February
+2024-02-06 08:24:00,Taylor Swift,August,Pop,231,231,1.0,Energetic,Working Out,Tuesday,8,February
+2024-02-06 18:01:00,Taylor Swift,Cruel Summer,Pop,165,237,0.7,Chill,Relaxing,Tuesday,18,February
+2024-02-06 18:29:00,Fleet Foxes,White Winter Hymnal,Folk,288,288,1.0,Melancholic,Working Out,Tuesday,18,February
+2024-02-08 04:10:00,Bonobo,Break Apart,Electronic,227,227,1.0,Focused,Relaxing,Thursday,4,February
+2024-02-08 11:46:00,Taylor Swift,Cardigan,Pop,213,213,1.0,Happy,Working Out,Thursday,11,February
+2024-02-08 23:16:00,Beach House,On The Sea,Indie Rock,269,269,1.0,Chill,Relaxing,Thursday,23,February
+2024-02-09 05:21:00,Arctic Monkeys,Do I Wanna Know?,Alternative,274,274,1.0,Focused,Partying,Friday,5,February
+2024-02-09 13:18:00,The Weeknd,Starboy,Pop,196,196,1.0,Chill,Working Out,Friday,13,February
+2024-02-09 23:05:00,Kendrick Lamar,Money Trees,Hip Hop,205,205,1.0,Melancholic,Working,Friday,23,February
+2024-02-10 10:19:00,Fleet Foxes,Blue Ridge Mountains,Folk,236,236,1.0,Energetic,Commuting,Saturday,10,February
+2024-02-10 14:38:00,Kendrick Lamar,N95,Hip Hop,230,230,1.0,Focused,Relaxing,Saturday,14,February
+2024-02-10 16:00:00,The Weeknd,Blinding Lights,Pop,278,278,1.0,Focused,Working,Saturday,16,February
+2024-02-11 02:04:00,Arctic Monkeys,R U Mine?,Alternative,237,237,1.0,Melancholic,Commuting,Sunday,2,February
+2024-02-11 02:22:00,The Strokes,Last Nite,Alternative,107,215,0.5,Melancholic,Partying,Sunday,2,February
+2024-02-11 12:18:00,The Strokes,Reptilia,Alternative,259,259,1.0,Energetic,Commuting,Sunday,12,February
+2024-02-11 13:01:00,Arctic Monkeys,Do I Wanna Know?,Alternative,291,291,1.0,Focused,Working Out,Sunday,13,February
+2024-02-12 19:09:00,Beach House,Space Song,Indie Rock,142,204,0.7,Happy,Commuting,Monday,19,February
+2024-02-13 00:09:00,Taylor Swift,Cruel Summer,Pop,217,217,1.0,Focused,Commuting,Tuesday,0,February
+2024-02-13 02:28:00,Fleet Foxes,Blue Ridge Mountains,Folk,182,182,1.0,Energetic,Working,Tuesday,2,February
+2024-02-13 09:47:00,Arctic Monkeys,Do I Wanna Know?,Alternative,192,192,1.0,Energetic,Working,Tuesday,9,February
+2024-02-13 18:37:00,The Weeknd,Starboy,Pop,258,258,1.0,Energetic,Partying,Tuesday,18,February
+2024-02-14 08:39:00,The Strokes,Bad Decisions,Alternative,209,209,1.0,Chill,Working,Wednesday,8,February
+2024-02-14 10:12:00,Arctic Monkeys,505,Alternative,238,238,1.0,Chill,Relaxing,Wednesday,10,February
+2024-02-14 15:28:00,Kamasi Washington,Truth,Jazz,187,187,1.0,Focused,Working,Wednesday,15,February
+2024-02-15 03:50:00,The Strokes,Reptilia,Alternative,217,217,1.0,Melancholic,Commuting,Thursday,3,February
+2024-02-15 05:49:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,287,287,1.0,Focused,Partying,Thursday,5,February
+2024-02-15 12:04:00,The Strokes,Someday,Alternative,110,220,0.5,Chill,Partying,Thursday,12,February
+2024-02-15 14:01:00,Bonobo,Break Apart,Electronic,220,220,1.0,Energetic,Working,Thursday,14,February
+2024-02-15 15:26:00,Beach House,Lazuli,Indie Rock,212,212,1.0,Energetic,Working,Thursday,15,February
+2024-02-15 19:02:00,The Strokes,Last Nite,Alternative,260,260,1.0,Chill,Partying,Thursday,19,February
+2024-02-15 20:17:00,Bonobo,Cirrus,Electronic,296,296,1.0,Chill,Working,Thursday,20,February
+2024-02-16 00:13:00,Bonobo,Cirrus,Electronic,237,237,1.0,Chill,Working,Friday,0,February
+2024-02-16 01:58:00,Fleet Foxes,Mykonos,Folk,253,253,1.0,Happy,Working Out,Friday,1,February
+2024-02-16 07:47:00,Arctic Monkeys,R U Mine?,Alternative,200,200,1.0,Melancholic,Working,Friday,7,February
+2024-02-16 12:25:00,The Strokes,Reptilia,Alternative,279,279,1.0,Energetic,Partying,Friday,12,February
+2024-02-17 00:15:00,Kendrick Lamar,N95,Hip Hop,215,215,1.0,Energetic,Commuting,Saturday,0,February
+2024-02-17 07:48:00,Arctic Monkeys,R U Mine?,Alternative,239,239,1.0,Happy,Working Out,Saturday,7,February
+2024-02-17 11:19:00,Tame Impala,Lost in Yesterday,Indie Rock,281,281,1.0,Focused,Partying,Saturday,11,February
+2024-02-17 11:29:00,Bonobo,Kerala,Electronic,216,216,1.0,Energetic,Commuting,Saturday,11,February
+2024-02-17 12:31:00,Kamasi Washington,The Next Step,Jazz,187,187,1.0,Melancholic,Working,Saturday,12,February
+2024-02-17 18:43:00,The Strokes,Last Nite,Alternative,226,226,1.0,Happy,Commuting,Saturday,18,February
+2024-02-18 19:53:00,Kendrick Lamar,Alright,Hip Hop,286,286,1.0,Chill,Partying,Sunday,19,February
+2024-02-18 22:34:00,Bonobo,Kerala,Electronic,229,229,1.0,Happy,Working,Sunday,22,February
+2024-02-19 06:14:00,Kamasi Washington,Truth,Jazz,186,186,1.0,Focused,Commuting,Monday,6,February
+2024-02-19 22:36:00,The Strokes,Last Nite,Alternative,270,270,1.0,Melancholic,Working,Monday,22,February
+2024-02-19 23:07:00,Kendrick Lamar,Alright,Hip Hop,269,269,1.0,Happy,Working,Monday,23,February
+2024-02-20 11:24:00,Kendrick Lamar,Money Trees,Hip Hop,250,250,1.0,Melancholic,Working,Tuesday,11,February
+2024-02-21 01:23:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,285,285,1.0,Chill,Working Out,Wednesday,1,February
+2024-02-21 04:06:00,The Weeknd,Blinding Lights,Pop,205,205,1.0,Focused,Working Out,Wednesday,4,February
+2024-02-21 07:01:00,The Strokes,The Adults Are Talking,Alternative,193,193,1.0,Happy,Working Out,Wednesday,7,February
+2024-02-21 10:31:00,Kendrick Lamar,Alright,Hip Hop,239,239,1.0,Focused,Working Out,Wednesday,10,February
+2024-02-21 18:33:00,Taylor Swift,August,Pop,221,221,1.0,Focused,Partying,Wednesday,18,February
+2024-02-21 18:47:00,The Strokes,Reptilia,Alternative,263,263,1.0,Energetic,Working,Wednesday,18,February
+2024-02-21 19:21:00,Fleet Foxes,Blue Ridge Mountains,Folk,295,295,1.0,Chill,Working Out,Wednesday,19,February
+2024-02-21 21:40:00,Arctic Monkeys,505,Alternative,290,290,1.0,Chill,Partying,Wednesday,21,February
+2024-02-21 22:53:00,Kendrick Lamar,Alright,Hip Hop,191,191,1.0,Energetic,Partying,Wednesday,22,February
+2024-02-23 02:38:00,Beach House,Myth,Indie Rock,287,287,1.0,Energetic,Partying,Friday,2,February
+2024-02-23 08:48:00,Arctic Monkeys,505,Alternative,67,224,0.3,Melancholic,Partying,Friday,8,February
+2024-02-23 09:38:00,Taylor Swift,Anti-Hero,Pop,285,285,1.0,Energetic,Working,Friday,9,February
+2024-02-23 14:15:00,Beach House,Lazuli,Indie Rock,232,232,1.0,Focused,Working,Friday,14,February
+2024-02-23 18:54:00,Bonobo,Kerala,Electronic,288,288,1.0,Energetic,Working,Friday,18,February
+2024-02-23 20:07:00,The Weeknd,Save Your Tears,Pop,236,236,1.0,Focused,Relaxing,Friday,20,February
+2024-02-23 21:17:00,Arctic Monkeys,Do I Wanna Know?,Alternative,182,182,1.0,Chill,Working Out,Friday,21,February
+2024-02-24 17:01:00,Bonobo,Linked,Electronic,195,195,1.0,Happy,Relaxing,Saturday,17,February
+2024-02-24 22:03:00,The Strokes,Last Nite,Alternative,239,239,1.0,Happy,Partying,Saturday,22,February
+2024-02-25 12:53:00,The Strokes,Someday,Alternative,245,245,1.0,Focused,Partying,Sunday,12,February
+2024-02-25 19:48:00,The Weeknd,Starboy,Pop,198,198,1.0,Focused,Partying,Sunday,19,February
+2024-02-26 02:51:00,Bonobo,Kerala,Electronic,207,207,1.0,Chill,Working Out,Monday,2,February
+2024-02-27 03:29:00,Bonobo,Cirrus,Electronic,149,214,0.7,Happy,Working,Tuesday,3,February
+2024-02-27 18:26:00,The Strokes,The Adults Are Talking,Alternative,224,224,1.0,Happy,Working Out,Tuesday,18,February
+2024-02-29 01:38:00,Tame Impala,Let It Happen,Indie Rock,263,263,1.0,Focused,Partying,Thursday,1,February
+2024-02-29 23:06:00,The Weeknd,Save Your Tears,Pop,298,298,1.0,Focused,Relaxing,Thursday,23,February
+2024-03-01 06:35:00,The Weeknd,Starboy,Pop,217,217,1.0,Energetic,Partying,Friday,6,March
+2024-03-02 01:55:00,Tame Impala,Let It Happen,Indie Rock,246,246,1.0,Melancholic,Relaxing,Saturday,1,March
+2024-03-02 07:42:00,Kendrick Lamar,N95,Hip Hop,188,188,1.0,Energetic,Commuting,Saturday,7,March
+2024-03-02 15:01:00,Tame Impala,Borderline,Indie Rock,233,233,1.0,Melancholic,Relaxing,Saturday,15,March
+2024-03-02 16:35:00,Taylor Swift,Anti-Hero,Pop,286,286,1.0,Melancholic,Relaxing,Saturday,16,March
+2024-03-02 19:57:00,Fleet Foxes,Mykonos,Folk,241,241,1.0,Focused,Commuting,Saturday,19,March
+2024-03-02 23:22:00,Fleet Foxes,White Winter Hymnal,Folk,227,227,1.0,Happy,Working Out,Saturday,23,March
+2024-03-03 00:32:00,The Weeknd,Blinding Lights,Pop,226,226,1.0,Energetic,Commuting,Sunday,0,March
+2024-03-03 01:20:00,Tame Impala,Let It Happen,Indie Rock,183,183,1.0,Energetic,Working,Sunday,1,March
+2024-03-03 07:43:00,Tame Impala,Borderline,Indie Rock,193,193,1.0,Focused,Partying,Sunday,7,March
+2024-03-03 16:32:00,Arctic Monkeys,505,Alternative,227,227,1.0,Focused,Working,Sunday,16,March
+2024-03-04 08:18:00,Fleet Foxes,Mykonos,Folk,216,216,1.0,Energetic,Partying,Monday,8,March
+2024-03-04 10:08:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,288,288,1.0,Melancholic,Partying,Monday,10,March
+2024-03-04 14:03:00,The Strokes,Last Nite,Alternative,134,268,0.5,Chill,Working,Monday,14,March
+2024-03-04 15:36:00,Arctic Monkeys,505,Alternative,96,192,0.5,Energetic,Commuting,Monday,15,March
+2024-03-05 10:09:00,Bonobo,Kerala,Electronic,258,258,1.0,Melancholic,Commuting,Tuesday,10,March
+2024-03-05 11:56:00,Arctic Monkeys,505,Alternative,180,180,1.0,Chill,Commuting,Tuesday,11,March
+2024-03-05 15:10:00,Taylor Swift,August,Pop,273,273,1.0,Happy,Relaxing,Tuesday,15,March
+2024-03-07 00:31:00,Taylor Swift,Cruel Summer,Pop,279,279,1.0,Chill,Working Out,Thursday,0,March
+2024-03-07 00:41:00,Bonobo,Kerala,Electronic,189,189,1.0,Focused,Working Out,Thursday,0,March
+2024-03-07 03:37:00,Fleet Foxes,White Winter Hymnal,Folk,278,278,1.0,Energetic,Relaxing,Thursday,3,March
+2024-03-08 12:06:00,Kendrick Lamar,Alright,Hip Hop,228,228,1.0,Melancholic,Working Out,Friday,12,March
+2024-03-08 15:02:00,Kamasi Washington,Truth,Jazz,244,244,1.0,Chill,Partying,Friday,15,March
+2024-03-08 21:16:00,Beach House,Myth,Indie Rock,185,185,1.0,Melancholic,Working,Friday,21,March
+2024-03-09 05:14:00,The Strokes,The Adults Are Talking,Alternative,261,261,1.0,Energetic,Partying,Saturday,5,March
+2024-03-09 10:20:00,The Strokes,Bad Decisions,Alternative,131,263,0.5,Melancholic,Working,Saturday,10,March
+2024-03-09 18:03:00,Tame Impala,Borderline,Indie Rock,143,205,0.7,Happy,Relaxing,Saturday,18,March
+2024-03-09 20:02:00,Fleet Foxes,Mykonos,Folk,191,191,1.0,Chill,Working Out,Saturday,20,March
+2024-03-10 13:18:00,Tame Impala,Lost in Yesterday,Indie Rock,194,194,1.0,Chill,Partying,Sunday,13,March
+2024-03-10 19:46:00,Bonobo,Break Apart,Electronic,285,285,1.0,Energetic,Commuting,Sunday,19,March
+2024-03-11 09:31:00,Kamasi Washington,Truth,Jazz,230,230,1.0,Focused,Commuting,Monday,9,March
+2024-03-11 09:36:00,Arctic Monkeys,Do I Wanna Know?,Alternative,232,232,1.0,Chill,Commuting,Monday,9,March
+2024-03-11 10:07:00,Fleet Foxes,Blue Ridge Mountains,Folk,270,270,1.0,Happy,Working,Monday,10,March
+2024-03-12 17:46:00,The Weeknd,Die For You,Pop,205,205,1.0,Melancholic,Working,Tuesday,17,March
+2024-03-13 01:11:00,Fleet Foxes,White Winter Hymnal,Folk,202,202,1.0,Focused,Commuting,Wednesday,1,March
+2024-03-13 03:32:00,The Strokes,Bad Decisions,Alternative,253,253,1.0,Melancholic,Relaxing,Wednesday,3,March
+2024-03-13 12:28:00,Fleet Foxes,White Winter Hymnal,Folk,216,216,1.0,Melancholic,Relaxing,Wednesday,12,March
+2024-03-14 03:15:00,Kamasi Washington,The Next Step,Jazz,225,225,1.0,Happy,Working,Thursday,3,March
+2024-03-14 12:38:00,Bonobo,Break Apart,Electronic,222,222,1.0,Happy,Working Out,Thursday,12,March
+2024-03-14 16:41:00,Tame Impala,Let It Happen,Indie Rock,285,285,1.0,Chill,Commuting,Thursday,16,March
+2024-03-15 08:04:00,The Strokes,Last Nite,Alternative,283,283,1.0,Melancholic,Partying,Friday,8,March
+2024-03-15 14:49:00,Arctic Monkeys,505,Alternative,266,266,1.0,Happy,Working Out,Friday,14,March
+2024-03-15 18:29:00,Beach House,On The Sea,Indie Rock,217,217,1.0,Chill,Working,Friday,18,March
+2024-03-15 23:27:00,Bonobo,Linked,Electronic,237,237,1.0,Energetic,Working,Friday,23,March
+2024-03-16 15:44:00,Tame Impala,Borderline,Indie Rock,200,200,1.0,Melancholic,Commuting,Saturday,15,March
+2024-03-16 22:53:00,Fleet Foxes,White Winter Hymnal,Folk,260,260,1.0,Focused,Partying,Saturday,22,March
+2024-03-17 05:39:00,Kendrick Lamar,DNA.,Hip Hop,220,220,1.0,Chill,Commuting,Sunday,5,March
+2024-03-17 07:16:00,Bonobo,Kerala,Electronic,263,263,1.0,Melancholic,Partying,Sunday,7,March
+2024-03-17 10:44:00,Arctic Monkeys,R U Mine?,Alternative,74,249,0.3,Focused,Working,Sunday,10,March
+2024-03-18 08:02:00,Arctic Monkeys,R U Mine?,Alternative,222,222,1.0,Happy,Commuting,Monday,8,March
+2024-03-18 11:01:00,Bonobo,Break Apart,Electronic,263,263,1.0,Energetic,Partying,Monday,11,March
+2024-03-18 17:15:00,Kendrick Lamar,Money Trees,Hip Hop,195,195,1.0,Focused,Commuting,Monday,17,March
+2024-03-18 22:17:00,Taylor Swift,Cardigan,Pop,227,227,1.0,Happy,Partying,Monday,22,March
+2024-03-18 22:17:00,Kamasi Washington,The Next Step,Jazz,184,184,1.0,Melancholic,Commuting,Monday,22,March
+2024-03-19 02:52:00,Kamasi Washington,The Next Step,Jazz,189,189,1.0,Chill,Working,Tuesday,2,March
+2024-03-19 04:21:00,Bonobo,Kerala,Electronic,232,232,1.0,Melancholic,Working Out,Tuesday,4,March
+2024-03-19 06:21:00,Bonobo,Break Apart,Electronic,123,246,0.5,Happy,Working,Tuesday,6,March
+2024-03-19 07:12:00,Tame Impala,Borderline,Indie Rock,253,253,1.0,Happy,Relaxing,Tuesday,7,March
+2024-03-19 07:42:00,The Strokes,Last Nite,Alternative,296,296,1.0,Melancholic,Relaxing,Tuesday,7,March
+2024-03-19 08:16:00,Beach House,Lazuli,Indie Rock,80,268,0.3,Focused,Working,Tuesday,8,March
+2024-03-19 11:54:00,The Strokes,Reptilia,Alternative,289,289,1.0,Energetic,Relaxing,Tuesday,11,March
+2024-03-19 13:53:00,Taylor Swift,Cardigan,Pop,119,238,0.5,Melancholic,Partying,Tuesday,13,March
+2024-03-20 09:52:00,Bonobo,Linked,Electronic,261,261,1.0,Happy,Relaxing,Wednesday,9,March
+2024-03-20 23:00:00,The Weeknd,Starboy,Pop,81,270,0.3,Focused,Partying,Wednesday,23,March
+2024-03-21 02:55:00,Beach House,Lazuli,Indie Rock,136,273,0.5,Focused,Relaxing,Thursday,2,March
+2024-03-21 10:19:00,Kamasi Washington,Truth,Jazz,280,280,1.0,Energetic,Partying,Thursday,10,March
+2024-03-21 22:25:00,The Weeknd,Starboy,Pop,215,215,1.0,Focused,Relaxing,Thursday,22,March
+2024-03-24 03:35:00,Kamasi Washington,The Garden Path,Jazz,186,186,1.0,Melancholic,Partying,Sunday,3,March
+2024-03-24 05:55:00,Kamasi Washington,The Garden Path,Jazz,286,286,1.0,Energetic,Working,Sunday,5,March
+2024-03-24 09:02:00,Beach House,Space Song,Indie Rock,220,220,1.0,Happy,Commuting,Sunday,9,March
+2024-03-24 10:31:00,Beach House,On The Sea,Indie Rock,242,242,1.0,Chill,Working Out,Sunday,10,March
+2024-03-24 12:23:00,The Weeknd,Save Your Tears,Pop,293,293,1.0,Melancholic,Relaxing,Sunday,12,March
+2024-03-24 16:14:00,Arctic Monkeys,Do I Wanna Know?,Alternative,242,242,1.0,Happy,Working,Sunday,16,March
+2024-03-25 02:38:00,Kendrick Lamar,DNA.,Hip Hop,284,284,1.0,Melancholic,Commuting,Monday,2,March
+2024-03-25 03:29:00,Kendrick Lamar,DNA.,Hip Hop,122,245,0.5,Focused,Working,Monday,3,March
+2024-03-25 11:15:00,The Strokes,Reptilia,Alternative,120,241,0.5,Chill,Commuting,Monday,11,March
+2024-03-25 16:38:00,Kendrick Lamar,DNA.,Hip Hop,286,286,1.0,Happy,Commuting,Monday,16,March
+2024-03-25 17:39:00,Beach House,On The Sea,Indie Rock,193,193,1.0,Melancholic,Working Out,Monday,17,March
+2024-03-25 21:38:00,Tame Impala,The Less I Know the Better,Indie Rock,265,265,1.0,Energetic,Commuting,Monday,21,March
+2024-03-26 04:32:00,Beach House,Myth,Indie Rock,226,226,1.0,Melancholic,Working Out,Tuesday,4,March
+2024-03-26 10:30:00,Arctic Monkeys,R U Mine?,Alternative,242,242,1.0,Happy,Working Out,Tuesday,10,March
+2024-03-27 04:36:00,Fleet Foxes,Blue Ridge Mountains,Folk,294,294,1.0,Chill,Partying,Wednesday,4,March
+2024-03-28 06:17:00,Kamasi Washington,The Next Step,Jazz,247,247,1.0,Focused,Working,Thursday,6,March
+2024-03-28 06:19:00,Beach House,Space Song,Indie Rock,277,277,1.0,Energetic,Partying,Thursday,6,March
+2024-03-28 09:45:00,Arctic Monkeys,505,Alternative,185,265,0.7,Energetic,Partying,Thursday,9,March
+2024-03-28 10:37:00,Fleet Foxes,White Winter Hymnal,Folk,196,196,1.0,Happy,Partying,Thursday,10,March
+2024-03-28 11:51:00,Fleet Foxes,Blue Ridge Mountains,Folk,136,272,0.5,Focused,Commuting,Thursday,11,March
+2024-03-28 15:22:00,Bonobo,Break Apart,Electronic,250,250,1.0,Focused,Working Out,Thursday,15,March
+2024-03-29 18:34:00,Kendrick Lamar,Alright,Hip Hop,203,203,1.0,Melancholic,Commuting,Friday,18,March
+2024-03-30 03:49:00,The Strokes,Bad Decisions,Alternative,238,238,1.0,Chill,Working Out,Saturday,3,March
+2024-03-30 19:12:00,Bonobo,Cirrus,Electronic,282,282,1.0,Melancholic,Working,Saturday,19,March
+2024-04-01 02:24:00,The Strokes,Reptilia,Alternative,184,184,1.0,Chill,Working,Monday,2,April
+2024-04-01 08:42:00,Tame Impala,The Less I Know the Better,Indie Rock,200,200,1.0,Focused,Partying,Monday,8,April
+2024-04-01 13:07:00,Kendrick Lamar,N95,Hip Hop,221,221,1.0,Chill,Relaxing,Monday,13,April
+2024-04-01 20:43:00,Kendrick Lamar,DNA.,Hip Hop,189,189,1.0,Melancholic,Partying,Monday,20,April
+2024-04-02 10:34:00,The Strokes,Someday,Alternative,249,249,1.0,Happy,Commuting,Tuesday,10,April
+2024-04-02 13:12:00,Arctic Monkeys,Do I Wanna Know?,Alternative,261,261,1.0,Focused,Partying,Tuesday,13,April
+2024-04-02 17:15:00,Fleet Foxes,Blue Ridge Mountains,Folk,261,261,1.0,Melancholic,Working Out,Tuesday,17,April
+2024-04-03 08:45:00,Kendrick Lamar,Money Trees,Hip Hop,243,243,1.0,Focused,Relaxing,Wednesday,8,April
+2024-04-03 14:34:00,Bonobo,Linked,Electronic,183,183,1.0,Chill,Working,Wednesday,14,April
+2024-04-03 20:30:00,Kamasi Washington,The Next Step,Jazz,208,208,1.0,Focused,Relaxing,Wednesday,20,April
+2024-04-04 03:25:00,The Strokes,Bad Decisions,Alternative,215,215,1.0,Chill,Working,Thursday,3,April
+2024-04-04 07:52:00,Beach House,On The Sea,Indie Rock,216,216,1.0,Melancholic,Working Out,Thursday,7,April
+2024-04-05 01:57:00,Bonobo,Cirrus,Electronic,189,189,1.0,Happy,Relaxing,Friday,1,April
+2024-04-05 14:13:00,Tame Impala,Borderline,Indie Rock,284,284,1.0,Melancholic,Partying,Friday,14,April
+2024-04-05 15:17:00,Beach House,Myth,Indie Rock,217,217,1.0,Melancholic,Working,Friday,15,April
+2024-04-06 00:21:00,The Weeknd,Blinding Lights,Pop,279,279,1.0,Chill,Partying,Saturday,0,April
+2024-04-06 02:08:00,Kendrick Lamar,Alright,Hip Hop,217,217,1.0,Chill,Partying,Saturday,2,April
+2024-04-06 03:34:00,Beach House,Lazuli,Indie Rock,269,269,1.0,Energetic,Working,Saturday,3,April
+2024-04-06 14:53:00,Tame Impala,Let It Happen,Indie Rock,249,249,1.0,Energetic,Working Out,Saturday,14,April
+2024-04-06 19:12:00,The Strokes,Someday,Alternative,249,249,1.0,Happy,Working,Saturday,19,April
+2024-04-07 03:23:00,Kendrick Lamar,N95,Hip Hop,254,254,1.0,Focused,Relaxing,Sunday,3,April
+2024-04-08 05:29:00,Tame Impala,Lost in Yesterday,Indie Rock,298,298,1.0,Happy,Commuting,Monday,5,April
+2024-04-08 11:55:00,Beach House,Myth,Indie Rock,207,207,1.0,Happy,Commuting,Monday,11,April
+2024-04-08 22:43:00,Bonobo,Linked,Electronic,284,284,1.0,Energetic,Working,Monday,22,April
+2024-04-09 19:04:00,Tame Impala,Borderline,Indie Rock,202,202,1.0,Focused,Working,Tuesday,19,April
+2024-04-10 02:09:00,The Strokes,The Adults Are Talking,Alternative,61,206,0.3,Focused,Relaxing,Wednesday,2,April
+2024-04-10 04:18:00,Kendrick Lamar,N95,Hip Hop,245,245,1.0,Happy,Working,Wednesday,4,April
+2024-04-10 08:48:00,The Strokes,Last Nite,Alternative,230,230,1.0,Melancholic,Working,Wednesday,8,April
+2024-04-10 16:30:00,The Strokes,Reptilia,Alternative,294,294,1.0,Happy,Relaxing,Wednesday,16,April
+2024-04-10 22:44:00,Bonobo,Cirrus,Electronic,287,287,1.0,Happy,Working Out,Wednesday,22,April
+2024-04-12 12:03:00,Bonobo,Cirrus,Electronic,210,210,1.0,Focused,Relaxing,Friday,12,April
+2024-04-12 12:31:00,Bonobo,Kerala,Electronic,250,250,1.0,Melancholic,Commuting,Friday,12,April
+2024-04-12 13:58:00,Bonobo,Cirrus,Electronic,291,291,1.0,Melancholic,Working,Friday,13,April
+2024-04-12 18:17:00,Beach House,Myth,Indie Rock,234,234,1.0,Focused,Relaxing,Friday,18,April
+2024-04-13 03:10:00,Bonobo,Kerala,Electronic,229,229,1.0,Focused,Working Out,Saturday,3,April
+2024-04-13 05:00:00,Fleet Foxes,Mykonos,Folk,234,234,1.0,Energetic,Partying,Saturday,5,April
+2024-04-13 06:22:00,Kendrick Lamar,N95,Hip Hop,61,204,0.3,Energetic,Working Out,Saturday,6,April
+2024-04-13 13:43:00,Bonobo,Break Apart,Electronic,212,212,1.0,Focused,Working Out,Saturday,13,April
+2024-04-14 13:35:00,Kamasi Washington,Truth,Jazz,260,260,1.0,Chill,Working Out,Sunday,13,April
+2024-04-14 17:07:00,The Strokes,Someday,Alternative,214,214,1.0,Chill,Relaxing,Sunday,17,April
+2024-04-14 22:14:00,Bonobo,Break Apart,Electronic,201,201,1.0,Chill,Partying,Sunday,22,April
+2024-04-15 04:16:00,Taylor Swift,August,Pop,180,180,1.0,Melancholic,Working,Monday,4,April
+2024-04-15 10:36:00,The Strokes,Someday,Alternative,294,294,1.0,Chill,Commuting,Monday,10,April
+2024-04-15 11:18:00,Taylor Swift,Cruel Summer,Pop,266,266,1.0,Focused,Partying,Monday,11,April
+2024-04-15 23:37:00,Kamasi Washington,The Garden Path,Jazz,274,274,1.0,Focused,Partying,Monday,23,April
+2024-04-16 04:09:00,Bonobo,Break Apart,Electronic,279,279,1.0,Happy,Relaxing,Tuesday,4,April
+2024-04-16 13:46:00,Tame Impala,The Less I Know the Better,Indie Rock,296,296,1.0,Chill,Relaxing,Tuesday,13,April
+2024-04-16 21:39:00,Beach House,On The Sea,Indie Rock,180,180,1.0,Happy,Partying,Tuesday,21,April
+2024-04-17 07:36:00,Arctic Monkeys,Do I Wanna Know?,Alternative,220,220,1.0,Chill,Partying,Wednesday,7,April
+2024-04-17 09:06:00,Beach House,On The Sea,Indie Rock,200,200,1.0,Chill,Relaxing,Wednesday,9,April
+2024-04-17 10:41:00,The Strokes,Bad Decisions,Alternative,298,298,1.0,Happy,Working,Wednesday,10,April
+2024-04-18 12:15:00,The Strokes,The Adults Are Talking,Alternative,209,299,0.7,Chill,Working Out,Thursday,12,April
+2024-04-18 22:37:00,Beach House,Lazuli,Indie Rock,238,238,1.0,Focused,Partying,Thursday,22,April
+2024-04-19 03:24:00,Kamasi Washington,Truth,Jazz,60,200,0.3,Melancholic,Commuting,Friday,3,April
+2024-04-19 09:04:00,Fleet Foxes,White Winter Hymnal,Folk,75,250,0.3,Melancholic,Relaxing,Friday,9,April
+2024-04-19 11:16:00,Kendrick Lamar,Alright,Hip Hop,160,229,0.7,Happy,Working,Friday,11,April
+2024-04-19 13:13:00,Taylor Swift,Anti-Hero,Pop,245,245,1.0,Happy,Working Out,Friday,13,April
+2024-04-20 06:08:00,Arctic Monkeys,505,Alternative,228,228,1.0,Melancholic,Partying,Saturday,6,April
+2024-04-20 12:43:00,Arctic Monkeys,R U Mine?,Alternative,235,235,1.0,Chill,Relaxing,Saturday,12,April
+2024-04-21 05:45:00,Kamasi Washington,Truth,Jazz,184,263,0.7,Happy,Working,Sunday,5,April
+2024-04-21 08:52:00,Arctic Monkeys,505,Alternative,250,250,1.0,Chill,Working,Sunday,8,April
+2024-04-21 15:21:00,Kamasi Washington,Truth,Jazz,294,294,1.0,Melancholic,Relaxing,Sunday,15,April
+2024-04-21 18:08:00,The Weeknd,Save Your Tears,Pop,285,285,1.0,Energetic,Working Out,Sunday,18,April
+2024-04-21 20:41:00,Taylor Swift,Anti-Hero,Pop,292,292,1.0,Focused,Working,Sunday,20,April
+2024-04-23 21:11:00,The Strokes,Someday,Alternative,221,221,1.0,Happy,Partying,Tuesday,21,April
+2024-04-23 23:34:00,The Strokes,Reptilia,Alternative,292,292,1.0,Energetic,Relaxing,Tuesday,23,April
+2024-04-24 18:10:00,The Strokes,Bad Decisions,Alternative,216,216,1.0,Focused,Partying,Wednesday,18,April
+2024-04-24 21:01:00,Arctic Monkeys,Do I Wanna Know?,Alternative,294,294,1.0,Chill,Commuting,Wednesday,21,April
+2024-04-25 04:33:00,Beach House,Space Song,Indie Rock,204,204,1.0,Happy,Working,Thursday,4,April
+2024-04-25 23:01:00,Bonobo,Break Apart,Electronic,240,240,1.0,Focused,Commuting,Thursday,23,April
+2024-04-26 04:00:00,Bonobo,Break Apart,Electronic,268,268,1.0,Chill,Working,Friday,4,April
+2024-04-26 04:12:00,Fleet Foxes,White Winter Hymnal,Folk,239,239,1.0,Chill,Partying,Friday,4,April
+2024-04-26 08:07:00,Fleet Foxes,White Winter Hymnal,Folk,185,185,1.0,Chill,Working,Friday,8,April
+2024-04-26 17:52:00,Tame Impala,Borderline,Indie Rock,228,228,1.0,Focused,Relaxing,Friday,17,April
+2024-04-26 22:23:00,Taylor Swift,Cardigan,Pop,249,249,1.0,Energetic,Working,Friday,22,April
+2024-04-27 04:13:00,Kendrick Lamar,DNA.,Hip Hop,202,202,1.0,Melancholic,Working,Saturday,4,April
+2024-04-28 10:14:00,The Weeknd,Blinding Lights,Pop,292,292,1.0,Chill,Commuting,Sunday,10,April
+2024-04-29 03:01:00,Arctic Monkeys,R U Mine?,Alternative,206,206,1.0,Energetic,Commuting,Monday,3,April
+2024-04-29 04:16:00,The Weeknd,Die For You,Pop,259,259,1.0,Energetic,Working Out,Monday,4,April
+2024-04-29 09:29:00,The Weeknd,Die For You,Pop,253,253,1.0,Melancholic,Relaxing,Monday,9,April
+2024-04-29 10:39:00,The Weeknd,Die For You,Pop,229,229,1.0,Melancholic,Working,Monday,10,April
+2024-04-29 15:15:00,Beach House,Lazuli,Indie Rock,134,268,0.5,Chill,Commuting,Monday,15,April
+2024-04-29 15:52:00,Fleet Foxes,Mykonos,Folk,206,206,1.0,Energetic,Partying,Monday,15,April
+2024-04-30 12:12:00,The Weeknd,Die For You,Pop,197,197,1.0,Focused,Commuting,Tuesday,12,April
+2024-04-30 18:41:00,Tame Impala,Lost in Yesterday,Indie Rock,111,223,0.5,Focused,Commuting,Tuesday,18,April
+2024-05-01 22:47:00,Tame Impala,Borderline,Indie Rock,283,283,1.0,Energetic,Commuting,Wednesday,22,May
+2024-05-02 06:36:00,The Strokes,The Adults Are Talking,Alternative,205,205,1.0,Energetic,Commuting,Thursday,6,May
+2024-05-03 01:55:00,The Weeknd,Starboy,Pop,201,201,1.0,Focused,Working,Friday,1,May
+2024-05-03 07:57:00,Fleet Foxes,White Winter Hymnal,Folk,89,298,0.3,Energetic,Working,Friday,7,May
+2024-05-03 15:11:00,Tame Impala,Borderline,Indie Rock,198,198,1.0,Melancholic,Partying,Friday,15,May
+2024-05-03 15:28:00,Beach House,Lazuli,Indie Rock,219,219,1.0,Melancholic,Commuting,Friday,15,May
+2024-05-03 19:36:00,Beach House,Lazuli,Indie Rock,254,254,1.0,Focused,Commuting,Friday,19,May
+2024-05-03 22:06:00,Arctic Monkeys,505,Alternative,214,214,1.0,Focused,Partying,Friday,22,May
+2024-05-04 06:16:00,Taylor Swift,August,Pop,231,231,1.0,Energetic,Relaxing,Saturday,6,May
+2024-05-04 13:12:00,Bonobo,Linked,Electronic,238,238,1.0,Happy,Partying,Saturday,13,May
+2024-05-04 18:49:00,Tame Impala,Borderline,Indie Rock,260,260,1.0,Focused,Partying,Saturday,18,May
+2024-05-05 08:14:00,Taylor Swift,Anti-Hero,Pop,223,223,1.0,Energetic,Commuting,Sunday,8,May
+2024-05-05 19:04:00,Beach House,Space Song,Indie Rock,244,244,1.0,Focused,Partying,Sunday,19,May
+2024-05-05 19:56:00,Kamasi Washington,The Next Step,Jazz,230,230,1.0,Focused,Working,Sunday,19,May
+2024-05-05 23:49:00,Bonobo,Cirrus,Electronic,227,227,1.0,Melancholic,Working Out,Sunday,23,May
+2024-05-06 05:49:00,Beach House,Lazuli,Indie Rock,69,231,0.3,Energetic,Commuting,Monday,5,May
+2024-05-06 10:07:00,Bonobo,Kerala,Electronic,239,239,1.0,Melancholic,Working,Monday,10,May
+2024-05-06 16:47:00,Arctic Monkeys,505,Alternative,224,224,1.0,Chill,Working,Monday,16,May
+2024-05-07 04:43:00,Bonobo,Break Apart,Electronic,261,261,1.0,Energetic,Working Out,Tuesday,4,May
+2024-05-07 19:34:00,Kamasi Washington,The Garden Path,Jazz,193,193,1.0,Focused,Working Out,Tuesday,19,May
+2024-05-07 20:20:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,184,184,1.0,Happy,Working,Tuesday,20,May
+2024-05-08 02:16:00,Kendrick Lamar,N95,Hip Hop,247,247,1.0,Focused,Partying,Wednesday,2,May
+2024-05-08 07:39:00,Bonobo,Kerala,Electronic,287,287,1.0,Focused,Working Out,Wednesday,7,May
+2024-05-08 20:30:00,The Weeknd,Die For You,Pop,205,205,1.0,Focused,Commuting,Wednesday,20,May
+2024-05-09 14:26:00,Kendrick Lamar,Money Trees,Hip Hop,184,184,1.0,Chill,Working,Thursday,14,May
+2024-05-09 20:27:00,Taylor Swift,August,Pop,214,214,1.0,Happy,Commuting,Thursday,20,May
+2024-05-10 07:26:00,Tame Impala,Lost in Yesterday,Indie Rock,110,221,0.5,Melancholic,Partying,Friday,7,May
+2024-05-10 09:31:00,Bonobo,Linked,Electronic,245,245,1.0,Happy,Relaxing,Friday,9,May
+2024-05-11 07:29:00,Taylor Swift,August,Pop,160,229,0.7,Melancholic,Partying,Saturday,7,May
+2024-05-11 08:19:00,Taylor Swift,Cardigan,Pop,226,226,1.0,Happy,Working Out,Saturday,8,May
+2024-05-11 18:53:00,Bonobo,Linked,Electronic,244,244,1.0,Energetic,Commuting,Saturday,18,May
+2024-05-13 13:19:00,The Weeknd,Starboy,Pop,181,181,1.0,Energetic,Partying,Monday,13,May
+2024-05-13 14:16:00,Kendrick Lamar,DNA.,Hip Hop,223,223,1.0,Melancholic,Commuting,Monday,14,May
+2024-05-14 00:34:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,185,185,1.0,Focused,Commuting,Tuesday,0,May
+2024-05-14 04:26:00,Fleet Foxes,Mykonos,Folk,293,293,1.0,Happy,Working Out,Tuesday,4,May
+2024-05-14 09:10:00,Beach House,Lazuli,Indie Rock,247,247,1.0,Energetic,Partying,Tuesday,9,May
+2024-05-14 17:04:00,Arctic Monkeys,R U Mine?,Alternative,228,228,1.0,Focused,Working,Tuesday,17,May
+2024-05-14 20:55:00,Arctic Monkeys,505,Alternative,139,279,0.5,Focused,Working,Tuesday,20,May
+2024-05-14 21:49:00,Tame Impala,Lost in Yesterday,Indie Rock,139,278,0.5,Melancholic,Working,Tuesday,21,May
+2024-05-15 01:49:00,Arctic Monkeys,505,Alternative,199,199,1.0,Focused,Working Out,Wednesday,1,May
+2024-05-15 05:18:00,The Strokes,Last Nite,Alternative,242,242,1.0,Happy,Relaxing,Wednesday,5,May
+2024-05-16 02:31:00,Tame Impala,Lost in Yesterday,Indie Rock,165,237,0.7,Melancholic,Working,Thursday,2,May
+2024-05-16 03:29:00,Taylor Swift,Cruel Summer,Pop,222,222,1.0,Melancholic,Partying,Thursday,3,May
+2024-05-17 03:18:00,Kamasi Washington,The Garden Path,Jazz,272,272,1.0,Energetic,Partying,Friday,3,May
+2024-05-18 17:35:00,Taylor Swift,August,Pop,267,267,1.0,Chill,Partying,Saturday,17,May
+2024-05-19 01:15:00,Beach House,Lazuli,Indie Rock,208,298,0.7,Chill,Working,Sunday,1,May
+2024-05-19 09:53:00,Beach House,On The Sea,Indie Rock,231,231,1.0,Melancholic,Working Out,Sunday,9,May
+2024-05-19 18:20:00,Tame Impala,Let It Happen,Indie Rock,148,297,0.5,Focused,Commuting,Sunday,18,May
+2024-05-19 22:48:00,The Strokes,The Adults Are Talking,Alternative,241,241,1.0,Melancholic,Working,Sunday,22,May
+2024-05-19 23:39:00,Fleet Foxes,Blue Ridge Mountains,Folk,203,203,1.0,Melancholic,Partying,Sunday,23,May
+2024-05-20 13:36:00,The Weeknd,Blinding Lights,Pop,225,225,1.0,Focused,Relaxing,Monday,13,May
+2024-05-20 13:55:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,181,181,1.0,Chill,Partying,Monday,13,May
+2024-05-20 17:10:00,Kamasi Washington,The Next Step,Jazz,219,219,1.0,Chill,Partying,Monday,17,May
+2024-05-20 22:47:00,Bonobo,Break Apart,Electronic,208,208,1.0,Happy,Relaxing,Monday,22,May
+2024-05-21 07:42:00,The Weeknd,Save Your Tears,Pop,285,285,1.0,Energetic,Commuting,Tuesday,7,May
+2024-05-21 15:41:00,Kamasi Washington,The Garden Path,Jazz,204,204,1.0,Happy,Working,Tuesday,15,May
+2024-05-22 07:23:00,Tame Impala,Let It Happen,Indie Rock,74,247,0.3,Chill,Working,Wednesday,7,May
+2024-05-22 17:50:00,Tame Impala,Lost in Yesterday,Indie Rock,286,286,1.0,Focused,Partying,Wednesday,17,May
+2024-05-22 20:55:00,The Strokes,Last Nite,Alternative,199,199,1.0,Focused,Relaxing,Wednesday,20,May
+2024-05-22 21:36:00,Kamasi Washington,The Garden Path,Jazz,265,265,1.0,Melancholic,Relaxing,Wednesday,21,May
+2024-05-23 09:27:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,237,237,1.0,Chill,Working,Thursday,9,May
+2024-05-23 10:28:00,Taylor Swift,Cardigan,Pop,185,185,1.0,Happy,Partying,Thursday,10,May
+2024-05-24 12:44:00,Kendrick Lamar,Alright,Hip Hop,192,192,1.0,Chill,Commuting,Friday,12,May
+2024-05-24 17:52:00,Beach House,Myth,Indie Rock,284,284,1.0,Energetic,Commuting,Friday,17,May
+2024-05-24 22:46:00,Arctic Monkeys,R U Mine?,Alternative,60,202,0.3,Happy,Partying,Friday,22,May
+2024-05-24 23:45:00,Taylor Swift,Cruel Summer,Pop,221,221,1.0,Happy,Relaxing,Friday,23,May
+2024-05-24 23:46:00,Tame Impala,The Less I Know the Better,Indie Rock,228,228,1.0,Focused,Relaxing,Friday,23,May
+2024-05-25 02:24:00,The Strokes,Last Nite,Alternative,217,217,1.0,Focused,Commuting,Saturday,2,May
+2024-05-25 21:37:00,The Strokes,Reptilia,Alternative,190,190,1.0,Energetic,Relaxing,Saturday,21,May
+2024-05-26 05:05:00,Arctic Monkeys,505,Alternative,271,271,1.0,Happy,Relaxing,Sunday,5,May
+2024-05-27 02:37:00,Tame Impala,Let It Happen,Indie Rock,213,213,1.0,Happy,Partying,Monday,2,May
+2024-05-27 04:31:00,Bonobo,Linked,Electronic,216,216,1.0,Energetic,Working,Monday,4,May
+2024-05-27 15:23:00,Bonobo,Cirrus,Electronic,206,206,1.0,Chill,Commuting,Monday,15,May
+2024-05-27 22:30:00,Taylor Swift,Anti-Hero,Pop,254,254,1.0,Energetic,Relaxing,Monday,22,May
+2024-05-28 02:46:00,Kendrick Lamar,Money Trees,Hip Hop,258,258,1.0,Focused,Commuting,Tuesday,2,May
+2024-05-28 15:00:00,Taylor Swift,Cruel Summer,Pop,282,282,1.0,Energetic,Commuting,Tuesday,15,May
+2024-05-30 07:34:00,Bonobo,Kerala,Electronic,236,236,1.0,Focused,Partying,Thursday,7,May
+2024-05-30 17:09:00,Beach House,Lazuli,Indie Rock,211,211,1.0,Melancholic,Relaxing,Thursday,17,May
+2024-05-30 17:50:00,Beach House,On The Sea,Indie Rock,235,235,1.0,Focused,Relaxing,Thursday,17,May
+2024-05-31 01:16:00,Kendrick Lamar,Alright,Hip Hop,193,193,1.0,Happy,Partying,Friday,1,May
+2024-06-01 01:27:00,Tame Impala,Borderline,Indie Rock,286,286,1.0,Melancholic,Commuting,Saturday,1,June
+2024-06-01 05:42:00,The Strokes,Last Nite,Alternative,227,227,1.0,Melancholic,Relaxing,Saturday,5,June
+2024-06-01 17:30:00,Bonobo,Kerala,Electronic,208,208,1.0,Focused,Partying,Saturday,17,June
+2024-06-01 18:03:00,Taylor Swift,Cardigan,Pop,224,224,1.0,Melancholic,Working Out,Saturday,18,June
+2024-06-02 00:06:00,Bonobo,Kerala,Electronic,87,291,0.3,Focused,Commuting,Sunday,0,June
+2024-06-02 10:51:00,The Weeknd,Die For You,Pop,201,201,1.0,Chill,Working Out,Sunday,10,June
+2024-06-03 02:03:00,Taylor Swift,Anti-Hero,Pop,189,189,1.0,Happy,Partying,Monday,2,June
+2024-06-03 02:17:00,Taylor Swift,August,Pop,265,265,1.0,Melancholic,Working,Monday,2,June
+2024-06-03 06:03:00,Taylor Swift,August,Pop,268,268,1.0,Energetic,Working Out,Monday,6,June
+2024-06-05 06:49:00,Kamasi Washington,The Garden Path,Jazz,124,249,0.5,Happy,Commuting,Wednesday,6,June
+2024-06-05 12:31:00,Fleet Foxes,Blue Ridge Mountains,Folk,270,270,1.0,Focused,Partying,Wednesday,12,June
+2024-06-05 13:41:00,Bonobo,Break Apart,Electronic,65,218,0.3,Focused,Partying,Wednesday,13,June
+2024-06-06 01:39:00,Arctic Monkeys,505,Alternative,64,216,0.3,Happy,Partying,Thursday,1,June
+2024-06-07 10:09:00,Arctic Monkeys,Do I Wanna Know?,Alternative,297,297,1.0,Energetic,Relaxing,Friday,10,June
+2024-06-07 16:24:00,The Weeknd,Die For You,Pop,296,296,1.0,Happy,Working Out,Friday,16,June
+2024-06-07 17:36:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,258,258,1.0,Chill,Relaxing,Friday,17,June
+2024-06-08 01:27:00,Kendrick Lamar,N95,Hip Hop,199,199,1.0,Chill,Working,Saturday,1,June
+2024-06-08 03:49:00,Arctic Monkeys,Do I Wanna Know?,Alternative,281,281,1.0,Energetic,Relaxing,Saturday,3,June
+2024-06-08 10:17:00,Arctic Monkeys,Do I Wanna Know?,Alternative,74,248,0.3,Chill,Partying,Saturday,10,June
+2024-06-08 17:11:00,Arctic Monkeys,Do I Wanna Know?,Alternative,232,232,1.0,Energetic,Working Out,Saturday,17,June
+2024-06-08 19:47:00,Tame Impala,Borderline,Indie Rock,265,265,1.0,Energetic,Working Out,Saturday,19,June
+2024-06-09 16:54:00,The Strokes,The Adults Are Talking,Alternative,290,290,1.0,Chill,Working Out,Sunday,16,June
+2024-06-10 11:20:00,Kendrick Lamar,DNA.,Hip Hop,89,297,0.3,Focused,Partying,Monday,11,June
+2024-06-10 18:11:00,Taylor Swift,Cruel Summer,Pop,209,299,0.7,Happy,Working Out,Monday,18,June
+2024-06-10 21:03:00,Kendrick Lamar,N95,Hip Hop,128,184,0.7,Melancholic,Working Out,Monday,21,June
+2024-06-11 15:51:00,Kamasi Washington,The Garden Path,Jazz,242,242,1.0,Chill,Commuting,Tuesday,15,June
+2024-06-11 17:37:00,Taylor Swift,August,Pop,299,299,1.0,Energetic,Working,Tuesday,17,June
+2024-06-11 21:25:00,Beach House,Space Song,Indie Rock,228,228,1.0,Melancholic,Partying,Tuesday,21,June
+2024-06-12 03:55:00,Bonobo,Break Apart,Electronic,273,273,1.0,Chill,Working Out,Wednesday,3,June
+2024-06-12 10:45:00,Fleet Foxes,Mykonos,Folk,280,280,1.0,Energetic,Commuting,Wednesday,10,June
+2024-06-12 18:06:00,The Strokes,Someday,Alternative,272,272,1.0,Chill,Working,Wednesday,18,June
+2024-06-12 18:51:00,Kendrick Lamar,Alright,Hip Hop,201,201,1.0,Chill,Working Out,Wednesday,18,June
+2024-06-12 20:23:00,Arctic Monkeys,505,Alternative,248,248,1.0,Melancholic,Partying,Wednesday,20,June
+2024-06-13 03:31:00,Kendrick Lamar,N95,Hip Hop,266,266,1.0,Chill,Working,Thursday,3,June
+2024-06-14 00:12:00,The Weeknd,Starboy,Pop,275,275,1.0,Focused,Commuting,Friday,0,June
+2024-06-14 11:00:00,Fleet Foxes,Blue Ridge Mountains,Folk,182,182,1.0,Chill,Working,Friday,11,June
+2024-06-14 14:01:00,Beach House,On The Sea,Indie Rock,233,233,1.0,Happy,Relaxing,Friday,14,June
+2024-06-14 15:06:00,Taylor Swift,Cardigan,Pop,121,242,0.5,Focused,Partying,Friday,15,June
+2024-06-15 10:07:00,Kamasi Washington,Truth,Jazz,173,248,0.7,Chill,Working,Saturday,10,June
+2024-06-16 02:17:00,The Strokes,Reptilia,Alternative,109,218,0.5,Chill,Commuting,Sunday,2,June
+2024-06-16 06:51:00,The Strokes,Last Nite,Alternative,228,228,1.0,Energetic,Partying,Sunday,6,June
+2024-06-16 17:31:00,Bonobo,Cirrus,Electronic,240,240,1.0,Chill,Working,Sunday,17,June
+2024-06-19 12:26:00,The Strokes,Someday,Alternative,145,208,0.7,Focused,Commuting,Wednesday,12,June
+2024-06-20 00:02:00,Fleet Foxes,White Winter Hymnal,Folk,298,298,1.0,Happy,Working Out,Thursday,0,June
+2024-06-20 08:12:00,Kamasi Washington,The Next Step,Jazz,188,188,1.0,Chill,Commuting,Thursday,8,June
+2024-06-21 05:24:00,Kendrick Lamar,Money Trees,Hip Hop,63,210,0.3,Melancholic,Working,Friday,5,June
+2024-06-21 06:59:00,Taylor Swift,August,Pop,206,206,1.0,Chill,Commuting,Friday,6,June
+2024-06-22 01:20:00,The Strokes,Reptilia,Alternative,265,265,1.0,Melancholic,Working Out,Saturday,1,June
+2024-06-22 04:55:00,Arctic Monkeys,505,Alternative,224,224,1.0,Happy,Partying,Saturday,4,June
+2024-06-22 06:15:00,Arctic Monkeys,R U Mine?,Alternative,294,294,1.0,Happy,Working Out,Saturday,6,June
+2024-06-22 10:48:00,Tame Impala,Borderline,Indie Rock,244,244,1.0,Energetic,Partying,Saturday,10,June
+2024-06-22 18:31:00,Tame Impala,Let It Happen,Indie Rock,299,299,1.0,Energetic,Relaxing,Saturday,18,June
+2024-06-22 22:09:00,Arctic Monkeys,Do I Wanna Know?,Alternative,183,183,1.0,Chill,Relaxing,Saturday,22,June
+2024-06-23 08:23:00,Kamasi Washington,The Next Step,Jazz,249,249,1.0,Happy,Working,Sunday,8,June
+2024-06-23 14:51:00,The Strokes,The Adults Are Talking,Alternative,185,185,1.0,Melancholic,Working Out,Sunday,14,June
+2024-06-23 15:32:00,Bonobo,Kerala,Electronic,212,212,1.0,Focused,Relaxing,Sunday,15,June
+2024-06-24 13:11:00,Kamasi Washington,The Garden Path,Jazz,211,211,1.0,Chill,Relaxing,Monday,13,June
+2024-06-24 16:57:00,The Weeknd,Die For You,Pop,201,201,1.0,Focused,Working,Monday,16,June
+2024-06-25 00:50:00,Bonobo,Kerala,Electronic,183,183,1.0,Chill,Commuting,Tuesday,0,June
+2024-06-25 02:58:00,The Strokes,Last Nite,Alternative,231,231,1.0,Melancholic,Partying,Tuesday,2,June
+2024-06-25 08:53:00,Bonobo,Break Apart,Electronic,182,261,0.7,Happy,Relaxing,Tuesday,8,June
+2024-06-25 13:45:00,Bonobo,Cirrus,Electronic,237,237,1.0,Energetic,Relaxing,Tuesday,13,June
+2024-06-25 15:06:00,Kamasi Washington,Truth,Jazz,251,251,1.0,Energetic,Working Out,Tuesday,15,June
+2024-06-26 13:59:00,The Strokes,Last Nite,Alternative,185,185,1.0,Focused,Working Out,Wednesday,13,June
+2024-06-27 06:07:00,The Strokes,Bad Decisions,Alternative,161,230,0.7,Focused,Working Out,Thursday,6,June
+2024-06-27 06:33:00,Taylor Swift,Cruel Summer,Pop,266,266,1.0,Chill,Commuting,Thursday,6,June
+2024-06-27 17:14:00,Kamasi Washington,The Garden Path,Jazz,284,284,1.0,Energetic,Relaxing,Thursday,17,June
+2024-06-27 17:28:00,Taylor Swift,August,Pop,287,287,1.0,Happy,Working,Thursday,17,June
+2024-06-28 12:37:00,Arctic Monkeys,505,Alternative,247,247,1.0,Melancholic,Working Out,Friday,12,June
+2024-06-29 00:14:00,Taylor Swift,Cruel Summer,Pop,297,297,1.0,Chill,Working Out,Saturday,0,June
+2024-06-29 22:09:00,Arctic Monkeys,Do I Wanna Know?,Alternative,245,245,1.0,Melancholic,Partying,Saturday,22,June
+2024-06-30 13:00:00,Bonobo,Kerala,Electronic,270,270,1.0,Happy,Working Out,Sunday,13,June
+2024-07-01 18:00:00,Kamasi Washington,Truth,Jazz,259,259,1.0,Happy,Commuting,Monday,18,July
+2024-07-01 20:48:00,Taylor Swift,August,Pop,181,181,1.0,Happy,Relaxing,Monday,20,July
+2024-07-02 05:24:00,Beach House,Myth,Indie Rock,295,295,1.0,Happy,Working,Tuesday,5,July
+2024-07-03 05:43:00,Bonobo,Linked,Electronic,230,230,1.0,Energetic,Relaxing,Wednesday,5,July
+2024-07-03 05:48:00,Fleet Foxes,Blue Ridge Mountains,Folk,197,197,1.0,Energetic,Working,Wednesday,5,July
+2024-07-03 17:30:00,The Weeknd,Die For You,Pop,226,226,1.0,Energetic,Partying,Wednesday,17,July
+2024-07-03 19:50:00,The Strokes,Bad Decisions,Alternative,233,233,1.0,Chill,Commuting,Wednesday,19,July
+2024-07-04 08:29:00,Kamasi Washington,Truth,Jazz,187,268,0.7,Melancholic,Partying,Thursday,8,July
+2024-07-04 12:16:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,138,276,0.5,Energetic,Relaxing,Thursday,12,July
+2024-07-04 14:07:00,Taylor Swift,Cruel Summer,Pop,271,271,1.0,Focused,Partying,Thursday,14,July
+2024-07-04 20:13:00,Tame Impala,The Less I Know the Better,Indie Rock,197,197,1.0,Chill,Working Out,Thursday,20,July
+2024-07-04 20:14:00,Taylor Swift,Cardigan,Pop,229,229,1.0,Melancholic,Relaxing,Thursday,20,July
+2024-07-05 14:53:00,The Weeknd,Starboy,Pop,97,194,0.5,Melancholic,Working,Friday,14,July
+2024-07-06 04:59:00,The Weeknd,Blinding Lights,Pop,236,236,1.0,Happy,Working Out,Saturday,4,July
+2024-07-06 14:23:00,The Strokes,Bad Decisions,Alternative,126,253,0.5,Melancholic,Commuting,Saturday,14,July
+2024-07-08 12:39:00,Bonobo,Break Apart,Electronic,149,213,0.7,Happy,Relaxing,Monday,12,July
+2024-07-08 12:53:00,Kendrick Lamar,Money Trees,Hip Hop,280,280,1.0,Chill,Relaxing,Monday,12,July
+2024-07-09 14:46:00,Kamasi Washington,The Garden Path,Jazz,177,253,0.7,Energetic,Relaxing,Tuesday,14,July
+2024-07-10 11:09:00,Beach House,Space Song,Indie Rock,221,221,1.0,Melancholic,Working,Wednesday,11,July
+2024-07-10 22:33:00,Arctic Monkeys,505,Alternative,254,254,1.0,Chill,Relaxing,Wednesday,22,July
+2024-07-11 14:22:00,Bonobo,Linked,Electronic,64,215,0.3,Melancholic,Commuting,Thursday,14,July
+2024-07-12 01:31:00,Taylor Swift,Anti-Hero,Pop,252,252,1.0,Focused,Working Out,Friday,1,July
+2024-07-12 07:15:00,Kendrick Lamar,N95,Hip Hop,216,216,1.0,Happy,Relaxing,Friday,7,July
+2024-07-12 09:35:00,Kamasi Washington,The Garden Path,Jazz,185,265,0.7,Energetic,Commuting,Friday,9,July
+2024-07-12 21:35:00,Arctic Monkeys,Do I Wanna Know?,Alternative,74,249,0.3,Focused,Working,Friday,21,July
+2024-07-13 06:00:00,The Strokes,Bad Decisions,Alternative,229,229,1.0,Melancholic,Working,Saturday,6,July
+2024-07-13 09:22:00,Tame Impala,Lost in Yesterday,Indie Rock,182,182,1.0,Happy,Working,Saturday,9,July
+2024-07-13 18:26:00,Tame Impala,Lost in Yesterday,Indie Rock,191,191,1.0,Chill,Working,Saturday,18,July
+2024-07-14 06:13:00,Bonobo,Kerala,Electronic,253,253,1.0,Happy,Relaxing,Sunday,6,July
+2024-07-15 09:23:00,Kendrick Lamar,Alright,Hip Hop,296,296,1.0,Focused,Relaxing,Monday,9,July
+2024-07-15 12:46:00,Tame Impala,The Less I Know the Better,Indie Rock,221,221,1.0,Melancholic,Relaxing,Monday,12,July
+2024-07-15 20:20:00,Tame Impala,Lost in Yesterday,Indie Rock,298,298,1.0,Melancholic,Working Out,Monday,20,July
+2024-07-16 03:16:00,Tame Impala,Lost in Yesterday,Indie Rock,236,236,1.0,Chill,Working,Tuesday,3,July
+2024-07-16 05:03:00,Arctic Monkeys,Do I Wanna Know?,Alternative,191,191,1.0,Energetic,Working,Tuesday,5,July
+2024-07-16 08:26:00,Fleet Foxes,Blue Ridge Mountains,Folk,287,287,1.0,Happy,Partying,Tuesday,8,July
+2024-07-17 06:41:00,Beach House,Myth,Indie Rock,212,212,1.0,Energetic,Partying,Wednesday,6,July
+2024-07-17 11:30:00,Beach House,Lazuli,Indie Rock,282,282,1.0,Chill,Working Out,Wednesday,11,July
+2024-07-17 12:15:00,Bonobo,Kerala,Electronic,257,257,1.0,Chill,Working,Wednesday,12,July
+2024-07-17 18:33:00,Fleet Foxes,White Winter Hymnal,Folk,255,255,1.0,Chill,Relaxing,Wednesday,18,July
+2024-07-17 22:13:00,Arctic Monkeys,R U Mine?,Alternative,287,287,1.0,Energetic,Partying,Wednesday,22,July
+2024-07-17 22:39:00,Kamasi Washington,The Next Step,Jazz,261,261,1.0,Melancholic,Working,Wednesday,22,July
+2024-07-18 10:06:00,The Strokes,The Adults Are Talking,Alternative,282,282,1.0,Focused,Relaxing,Thursday,10,July
+2024-07-18 15:56:00,Tame Impala,Let It Happen,Indie Rock,295,295,1.0,Melancholic,Partying,Thursday,15,July
+2024-07-18 17:55:00,Bonobo,Break Apart,Electronic,216,216,1.0,Melancholic,Partying,Thursday,17,July
+2024-07-19 03:33:00,Kendrick Lamar,N95,Hip Hop,221,221,1.0,Focused,Working Out,Friday,3,July
+2024-07-19 05:50:00,The Weeknd,Die For You,Pop,295,295,1.0,Energetic,Relaxing,Friday,5,July
+2024-07-19 16:54:00,Bonobo,Linked,Electronic,205,205,1.0,Energetic,Relaxing,Friday,16,July
+2024-07-19 20:26:00,Bonobo,Cirrus,Electronic,277,277,1.0,Happy,Relaxing,Friday,20,July
+2024-07-20 18:04:00,Beach House,Myth,Indie Rock,60,200,0.3,Chill,Working,Saturday,18,July
+2024-07-21 09:24:00,The Weeknd,Starboy,Pop,231,231,1.0,Energetic,Working Out,Sunday,9,July
+2024-07-22 04:15:00,Tame Impala,Borderline,Indie Rock,237,237,1.0,Chill,Relaxing,Monday,4,July
+2024-07-22 12:12:00,Bonobo,Break Apart,Electronic,233,233,1.0,Focused,Partying,Monday,12,July
+2024-07-22 16:33:00,Beach House,On The Sea,Indie Rock,196,196,1.0,Chill,Working Out,Monday,16,July
+2024-07-24 01:26:00,Beach House,Space Song,Indie Rock,220,220,1.0,Melancholic,Partying,Wednesday,1,July
+2024-07-24 10:09:00,Bonobo,Kerala,Electronic,188,188,1.0,Melancholic,Commuting,Wednesday,10,July
+2024-07-24 23:49:00,Kamasi Washington,The Next Step,Jazz,254,254,1.0,Chill,Relaxing,Wednesday,23,July
+2024-07-25 00:54:00,Arctic Monkeys,Do I Wanna Know?,Alternative,257,257,1.0,Energetic,Relaxing,Thursday,0,July
+2024-07-25 09:10:00,Beach House,Lazuli,Indie Rock,249,249,1.0,Chill,Working,Thursday,9,July
+2024-07-25 15:02:00,Kendrick Lamar,Alright,Hip Hop,279,279,1.0,Melancholic,Working,Thursday,15,July
+2024-07-25 16:32:00,The Weeknd,Starboy,Pop,276,276,1.0,Chill,Working,Thursday,16,July
+2024-07-25 17:15:00,The Strokes,Someday,Alternative,268,268,1.0,Melancholic,Relaxing,Thursday,17,July
+2024-07-26 19:46:00,Beach House,Lazuli,Indie Rock,250,250,1.0,Energetic,Commuting,Friday,19,July
+2024-07-27 06:08:00,Kendrick Lamar,Alright,Hip Hop,271,271,1.0,Energetic,Commuting,Saturday,6,July
+2024-07-27 22:16:00,The Strokes,Someday,Alternative,191,273,0.7,Energetic,Relaxing,Saturday,22,July
+2024-07-28 16:33:00,Beach House,On The Sea,Indie Rock,244,244,1.0,Chill,Working,Sunday,16,July
+2024-07-28 21:54:00,Beach House,Lazuli,Indie Rock,146,292,0.5,Chill,Commuting,Sunday,21,July
+2024-07-29 02:03:00,Tame Impala,Borderline,Indie Rock,290,290,1.0,Focused,Working,Monday,2,July
+2024-07-29 03:39:00,Taylor Swift,Cruel Summer,Pop,204,204,1.0,Focused,Working,Monday,3,July
+2024-07-29 17:26:00,Arctic Monkeys,R U Mine?,Alternative,141,283,0.5,Energetic,Commuting,Monday,17,July
+2024-07-29 19:31:00,Kamasi Washington,The Next Step,Jazz,55,185,0.3,Focused,Working,Monday,19,July
+2024-07-29 20:02:00,Arctic Monkeys,R U Mine?,Alternative,294,294,1.0,Chill,Commuting,Monday,20,July
+2024-07-29 20:30:00,Fleet Foxes,White Winter Hymnal,Folk,282,282,1.0,Energetic,Partying,Monday,20,July
+2024-07-30 06:14:00,Beach House,Space Song,Indie Rock,261,261,1.0,Melancholic,Commuting,Tuesday,6,July
+2024-07-30 06:24:00,Kendrick Lamar,Alright,Hip Hop,239,239,1.0,Melancholic,Working Out,Tuesday,6,July
+2024-07-30 19:27:00,Kamasi Washington,The Next Step,Jazz,189,271,0.7,Chill,Partying,Tuesday,19,July
+2024-07-30 20:33:00,Arctic Monkeys,R U Mine?,Alternative,188,188,1.0,Focused,Working Out,Tuesday,20,July
+2024-07-31 02:42:00,Fleet Foxes,White Winter Hymnal,Folk,249,249,1.0,Energetic,Partying,Wednesday,2,July
+2024-07-31 13:34:00,Tame Impala,Let It Happen,Indie Rock,60,200,0.3,Melancholic,Working Out,Wednesday,13,July
+2024-07-31 23:31:00,Kendrick Lamar,Money Trees,Hip Hop,192,192,1.0,Happy,Commuting,Wednesday,23,July
+2024-08-01 01:42:00,Bonobo,Kerala,Electronic,206,206,1.0,Energetic,Working,Thursday,1,August
+2024-08-01 09:08:00,Arctic Monkeys,R U Mine?,Alternative,231,231,1.0,Focused,Working Out,Thursday,9,August
+2024-08-02 05:19:00,Fleet Foxes,White Winter Hymnal,Folk,207,207,1.0,Chill,Commuting,Friday,5,August
+2024-08-02 08:05:00,Kendrick Lamar,Money Trees,Hip Hop,223,223,1.0,Energetic,Commuting,Friday,8,August
+2024-08-02 14:44:00,Arctic Monkeys,505,Alternative,291,291,1.0,Happy,Working Out,Friday,14,August
+2024-08-02 16:23:00,Bonobo,Kerala,Electronic,250,250,1.0,Chill,Working Out,Friday,16,August
+2024-08-02 20:18:00,Bonobo,Kerala,Electronic,270,270,1.0,Melancholic,Partying,Friday,20,August
+2024-08-02 23:10:00,Bonobo,Break Apart,Electronic,247,247,1.0,Melancholic,Relaxing,Friday,23,August
+2024-08-03 13:55:00,The Strokes,The Adults Are Talking,Alternative,196,196,1.0,Melancholic,Partying,Saturday,13,August
+2024-08-04 05:45:00,Arctic Monkeys,Do I Wanna Know?,Alternative,272,272,1.0,Happy,Commuting,Sunday,5,August
+2024-08-05 01:39:00,The Weeknd,Starboy,Pop,252,252,1.0,Happy,Working Out,Monday,1,August
+2024-08-05 03:52:00,Bonobo,Kerala,Electronic,244,244,1.0,Energetic,Working Out,Monday,3,August
+2024-08-05 22:37:00,Kamasi Washington,The Garden Path,Jazz,208,208,1.0,Happy,Working Out,Monday,22,August
+2024-08-06 00:20:00,Beach House,Lazuli,Indie Rock,280,280,1.0,Energetic,Working,Tuesday,0,August
+2024-08-06 09:33:00,Arctic Monkeys,R U Mine?,Alternative,277,277,1.0,Happy,Relaxing,Tuesday,9,August
+2024-08-06 16:45:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,198,198,1.0,Happy,Partying,Tuesday,16,August
+2024-08-07 02:28:00,The Weeknd,Save Your Tears,Pop,237,237,1.0,Happy,Commuting,Wednesday,2,August
+2024-08-07 07:03:00,Beach House,Space Song,Indie Rock,280,280,1.0,Happy,Relaxing,Wednesday,7,August
+2024-08-07 15:15:00,The Strokes,Last Nite,Alternative,279,279,1.0,Energetic,Working,Wednesday,15,August
+2024-08-07 16:43:00,Kendrick Lamar,DNA.,Hip Hop,285,285,1.0,Happy,Working,Wednesday,16,August
+2024-08-07 16:44:00,Bonobo,Cirrus,Electronic,297,297,1.0,Chill,Working Out,Wednesday,16,August
+2024-08-07 17:17:00,Tame Impala,The Less I Know the Better,Indie Rock,215,215,1.0,Chill,Working Out,Wednesday,17,August
+2024-08-08 09:08:00,Beach House,Space Song,Indie Rock,228,228,1.0,Melancholic,Relaxing,Thursday,9,August
+2024-08-08 19:13:00,Bonobo,Cirrus,Electronic,57,193,0.3,Focused,Commuting,Thursday,19,August
+2024-08-08 22:54:00,Beach House,Lazuli,Indie Rock,215,215,1.0,Energetic,Working Out,Thursday,22,August
+2024-08-09 00:37:00,Fleet Foxes,White Winter Hymnal,Folk,221,221,1.0,Energetic,Working,Friday,0,August
+2024-08-09 03:00:00,Taylor Swift,Cruel Summer,Pop,258,258,1.0,Chill,Working Out,Friday,3,August
+2024-08-09 13:10:00,Kamasi Washington,Truth,Jazz,127,182,0.7,Happy,Working,Friday,13,August
+2024-08-09 15:46:00,Beach House,Space Song,Indie Rock,270,270,1.0,Happy,Relaxing,Friday,15,August
+2024-08-09 23:38:00,Arctic Monkeys,505,Alternative,265,265,1.0,Happy,Partying,Friday,23,August
+2024-08-10 01:19:00,The Strokes,Someday,Alternative,253,253,1.0,Energetic,Working,Saturday,1,August
+2024-08-10 04:52:00,Bonobo,Break Apart,Electronic,188,188,1.0,Energetic,Commuting,Saturday,4,August
+2024-08-11 12:39:00,Kendrick Lamar,Alright,Hip Hop,181,181,1.0,Happy,Working,Sunday,12,August
+2024-08-12 08:24:00,Bonobo,Kerala,Electronic,288,288,1.0,Focused,Working,Monday,8,August
+2024-08-13 01:00:00,Arctic Monkeys,505,Alternative,136,195,0.7,Chill,Commuting,Tuesday,1,August
+2024-08-13 22:32:00,Kamasi Washington,Truth,Jazz,292,292,1.0,Focused,Relaxing,Tuesday,22,August
+2024-08-14 09:42:00,Fleet Foxes,Blue Ridge Mountains,Folk,247,247,1.0,Happy,Relaxing,Wednesday,9,August
+2024-08-15 00:18:00,The Weeknd,Die For You,Pop,277,277,1.0,Chill,Working,Thursday,0,August
+2024-08-15 00:36:00,Bonobo,Cirrus,Electronic,267,267,1.0,Focused,Partying,Thursday,0,August
+2024-08-15 06:12:00,Bonobo,Cirrus,Electronic,297,297,1.0,Chill,Working,Thursday,6,August
+2024-08-15 15:45:00,Kendrick Lamar,Alright,Hip Hop,276,276,1.0,Happy,Working,Thursday,15,August
+2024-08-16 08:21:00,Bonobo,Kerala,Electronic,203,203,1.0,Melancholic,Partying,Friday,8,August
+2024-08-17 06:50:00,The Strokes,Bad Decisions,Alternative,210,210,1.0,Energetic,Partying,Saturday,6,August
+2024-08-17 22:39:00,Kendrick Lamar,DNA.,Hip Hop,275,275,1.0,Chill,Working Out,Saturday,22,August
+2024-08-18 06:52:00,Beach House,Space Song,Indie Rock,228,228,1.0,Focused,Working Out,Sunday,6,August
+2024-08-18 09:30:00,Kamasi Washington,Truth,Jazz,253,253,1.0,Chill,Relaxing,Sunday,9,August
+2024-08-18 23:17:00,The Strokes,Reptilia,Alternative,294,294,1.0,Chill,Partying,Sunday,23,August
+2024-08-19 20:23:00,Taylor Swift,Anti-Hero,Pop,185,185,1.0,Melancholic,Working,Monday,20,August
+2024-08-20 16:58:00,The Strokes,Reptilia,Alternative,277,277,1.0,Melancholic,Partying,Tuesday,16,August
+2024-08-20 23:53:00,Kendrick Lamar,N95,Hip Hop,111,222,0.5,Happy,Partying,Tuesday,23,August
+2024-08-21 01:43:00,The Weeknd,Die For You,Pop,221,221,1.0,Melancholic,Commuting,Wednesday,1,August
+2024-08-21 11:19:00,The Strokes,Bad Decisions,Alternative,172,246,0.7,Melancholic,Commuting,Wednesday,11,August
+2024-08-21 13:26:00,Taylor Swift,Cruel Summer,Pop,264,264,1.0,Energetic,Commuting,Wednesday,13,August
+2024-08-21 15:53:00,The Weeknd,Save Your Tears,Pop,210,210,1.0,Chill,Partying,Wednesday,15,August
+2024-08-22 00:26:00,Kendrick Lamar,Alright,Hip Hop,73,246,0.3,Focused,Partying,Thursday,0,August
+2024-08-22 04:01:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,266,266,1.0,Chill,Commuting,Thursday,4,August
+2024-08-22 06:49:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,247,247,1.0,Focused,Working Out,Thursday,6,August
+2024-08-22 08:57:00,Tame Impala,The Less I Know the Better,Indie Rock,186,186,1.0,Happy,Commuting,Thursday,8,August
+2024-08-22 11:09:00,Fleet Foxes,Mykonos,Folk,288,288,1.0,Happy,Working,Thursday,11,August
+2024-08-22 19:44:00,Taylor Swift,August,Pop,270,270,1.0,Energetic,Partying,Thursday,19,August
+2024-08-22 23:25:00,Taylor Swift,Anti-Hero,Pop,134,268,0.5,Energetic,Commuting,Thursday,23,August
+2024-08-23 02:20:00,Kendrick Lamar,Money Trees,Hip Hop,213,213,1.0,Melancholic,Commuting,Friday,2,August
+2024-08-23 03:12:00,Taylor Swift,August,Pop,197,197,1.0,Energetic,Partying,Friday,3,August
+2024-08-23 21:19:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,290,290,1.0,Melancholic,Relaxing,Friday,21,August
+2024-08-24 14:36:00,Taylor Swift,August,Pop,225,225,1.0,Melancholic,Partying,Saturday,14,August
+2024-08-24 21:02:00,Bonobo,Kerala,Electronic,280,280,1.0,Chill,Working,Saturday,21,August
+2024-08-25 04:04:00,Kamasi Washington,The Garden Path,Jazz,266,266,1.0,Chill,Relaxing,Sunday,4,August
+2024-08-25 07:05:00,Tame Impala,The Less I Know the Better,Indie Rock,233,233,1.0,Chill,Relaxing,Sunday,7,August
+2024-08-25 12:22:00,Taylor Swift,Cardigan,Pop,233,233,1.0,Happy,Commuting,Sunday,12,August
+2024-08-25 23:43:00,The Strokes,Bad Decisions,Alternative,261,261,1.0,Melancholic,Working Out,Sunday,23,August
+2024-08-26 01:49:00,Tame Impala,Borderline,Indie Rock,86,288,0.3,Happy,Partying,Monday,1,August
+2024-08-26 04:02:00,Kendrick Lamar,DNA.,Hip Hop,220,220,1.0,Happy,Commuting,Monday,4,August
+2024-08-26 07:14:00,Beach House,Lazuli,Indie Rock,177,254,0.7,Focused,Commuting,Monday,7,August
+2024-08-26 14:07:00,Beach House,Lazuli,Indie Rock,163,233,0.7,Chill,Relaxing,Monday,14,August
+2024-08-27 11:35:00,Tame Impala,Lost in Yesterday,Indie Rock,259,259,1.0,Melancholic,Working,Tuesday,11,August
+2024-08-27 12:32:00,Bonobo,Break Apart,Electronic,262,262,1.0,Energetic,Commuting,Tuesday,12,August
+2024-08-28 09:00:00,Fleet Foxes,White Winter Hymnal,Folk,220,220,1.0,Happy,Working Out,Wednesday,9,August
+2024-08-28 09:44:00,Beach House,On The Sea,Indie Rock,231,231,1.0,Chill,Working,Wednesday,9,August
+2024-08-29 04:19:00,Taylor Swift,Cardigan,Pop,268,268,1.0,Focused,Commuting,Thursday,4,August
+2024-08-30 19:32:00,Kendrick Lamar,DNA.,Hip Hop,195,195,1.0,Happy,Partying,Friday,19,August
+2024-08-31 02:06:00,The Weeknd,Save Your Tears,Pop,271,271,1.0,Chill,Working,Saturday,2,August
+2024-08-31 04:04:00,Arctic Monkeys,R U Mine?,Alternative,210,210,1.0,Melancholic,Working,Saturday,4,August
+2024-08-31 13:22:00,Arctic Monkeys,R U Mine?,Alternative,246,246,1.0,Happy,Working,Saturday,13,August
+2024-08-31 15:57:00,The Weeknd,Save Your Tears,Pop,196,196,1.0,Melancholic,Working Out,Saturday,15,August
+2024-08-31 17:48:00,Kamasi Washington,The Garden Path,Jazz,258,258,1.0,Chill,Partying,Saturday,17,August
+2024-08-31 20:16:00,Beach House,Lazuli,Indie Rock,230,230,1.0,Energetic,Partying,Saturday,20,August
+2024-08-31 23:00:00,Fleet Foxes,Mykonos,Folk,284,284,1.0,Chill,Partying,Saturday,23,August
+2024-09-01 08:49:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,237,237,1.0,Melancholic,Partying,Sunday,8,September
+2024-09-01 14:15:00,The Weeknd,Save Your Tears,Pop,225,225,1.0,Focused,Working,Sunday,14,September
+2024-09-02 08:19:00,The Strokes,Reptilia,Alternative,249,249,1.0,Focused,Partying,Monday,8,September
+2024-09-02 14:59:00,Bonobo,Kerala,Electronic,168,240,0.7,Focused,Working Out,Monday,14,September
+2024-09-02 17:07:00,Bonobo,Kerala,Electronic,285,285,1.0,Chill,Working,Monday,17,September
+2024-09-03 17:28:00,Kendrick Lamar,Money Trees,Hip Hop,247,247,1.0,Chill,Relaxing,Tuesday,17,September
+2024-09-03 19:18:00,Bonobo,Break Apart,Electronic,205,205,1.0,Chill,Commuting,Tuesday,19,September
+2024-09-04 18:18:00,Beach House,Myth,Indie Rock,295,295,1.0,Energetic,Relaxing,Wednesday,18,September
+2024-09-04 23:32:00,Beach House,Lazuli,Indie Rock,233,233,1.0,Melancholic,Commuting,Wednesday,23,September
+2024-09-05 07:06:00,The Strokes,Last Nite,Alternative,219,219,1.0,Chill,Relaxing,Thursday,7,September
+2024-09-06 05:58:00,The Weeknd,Starboy,Pop,250,250,1.0,Happy,Commuting,Friday,5,September
+2024-09-06 10:17:00,Arctic Monkeys,R U Mine?,Alternative,229,229,1.0,Chill,Working Out,Friday,10,September
+2024-09-06 12:01:00,Bonobo,Kerala,Electronic,218,218,1.0,Focused,Partying,Friday,12,September
+2024-09-06 18:47:00,The Weeknd,Save Your Tears,Pop,248,248,1.0,Chill,Commuting,Friday,18,September
+2024-09-07 00:32:00,The Weeknd,Blinding Lights,Pop,248,248,1.0,Focused,Relaxing,Saturday,0,September
+2024-09-07 03:35:00,Taylor Swift,Cruel Summer,Pop,76,254,0.3,Focused,Working Out,Saturday,3,September
+2024-09-07 07:46:00,Fleet Foxes,White Winter Hymnal,Folk,253,253,1.0,Happy,Working Out,Saturday,7,September
+2024-09-07 21:49:00,Arctic Monkeys,R U Mine?,Alternative,207,207,1.0,Happy,Partying,Saturday,21,September
+2024-09-08 03:32:00,Beach House,Space Song,Indie Rock,125,251,0.5,Focused,Commuting,Sunday,3,September
+2024-09-09 06:58:00,The Strokes,Someday,Alternative,228,228,1.0,Focused,Commuting,Monday,6,September
+2024-09-09 07:39:00,Kendrick Lamar,DNA.,Hip Hop,274,274,1.0,Melancholic,Relaxing,Monday,7,September
+2024-09-09 21:27:00,Beach House,On The Sea,Indie Rock,271,271,1.0,Melancholic,Working Out,Monday,21,September
+2024-09-10 07:38:00,Bonobo,Break Apart,Electronic,255,255,1.0,Energetic,Relaxing,Tuesday,7,September
+2024-09-10 11:56:00,Bonobo,Kerala,Electronic,282,282,1.0,Focused,Commuting,Tuesday,11,September
+2024-09-10 18:46:00,Arctic Monkeys,Do I Wanna Know?,Alternative,89,299,0.3,Energetic,Working,Tuesday,18,September
+2024-09-10 20:23:00,Bonobo,Linked,Electronic,229,229,1.0,Focused,Commuting,Tuesday,20,September
+2024-09-11 01:51:00,Kamasi Washington,Truth,Jazz,151,216,0.7,Chill,Working,Wednesday,1,September
+2024-09-11 04:08:00,Beach House,Space Song,Indie Rock,270,270,1.0,Energetic,Working Out,Wednesday,4,September
+2024-09-11 17:44:00,Beach House,Myth,Indie Rock,228,228,1.0,Happy,Working Out,Wednesday,17,September
+2024-09-12 03:56:00,Taylor Swift,Cruel Summer,Pop,229,229,1.0,Happy,Commuting,Thursday,3,September
+2024-09-13 00:57:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,235,235,1.0,Chill,Commuting,Friday,0,September
+2024-09-13 05:06:00,The Strokes,Someday,Alternative,66,221,0.3,Melancholic,Commuting,Friday,5,September
+2024-09-13 17:13:00,The Strokes,Bad Decisions,Alternative,191,191,1.0,Chill,Relaxing,Friday,17,September
+2024-09-14 05:36:00,Kamasi Washington,Truth,Jazz,254,254,1.0,Chill,Commuting,Saturday,5,September
+2024-09-14 14:45:00,Taylor Swift,Anti-Hero,Pop,235,235,1.0,Focused,Partying,Saturday,14,September
+2024-09-14 19:13:00,Tame Impala,Let It Happen,Indie Rock,237,237,1.0,Chill,Partying,Saturday,19,September
+2024-09-15 06:43:00,The Weeknd,Die For You,Pop,284,284,1.0,Melancholic,Commuting,Sunday,6,September
+2024-09-15 08:47:00,Fleet Foxes,White Winter Hymnal,Folk,291,291,1.0,Focused,Working Out,Sunday,8,September
+2024-09-15 12:11:00,Tame Impala,Borderline,Indie Rock,226,226,1.0,Focused,Relaxing,Sunday,12,September
+2024-09-15 21:38:00,Arctic Monkeys,R U Mine?,Alternative,147,211,0.7,Focused,Relaxing,Sunday,21,September
+2024-09-16 11:12:00,Kamasi Washington,The Next Step,Jazz,243,243,1.0,Happy,Working Out,Monday,11,September
+2024-09-16 12:26:00,Bonobo,Linked,Electronic,266,266,1.0,Chill,Partying,Monday,12,September
+2024-09-16 21:06:00,Tame Impala,The Less I Know the Better,Indie Rock,272,272,1.0,Focused,Working Out,Monday,21,September
+2024-09-16 22:33:00,Kendrick Lamar,Money Trees,Hip Hop,230,230,1.0,Happy,Relaxing,Monday,22,September
+2024-09-17 09:59:00,Fleet Foxes,Mykonos,Folk,281,281,1.0,Happy,Working,Tuesday,9,September
+2024-09-18 15:02:00,Taylor Swift,Anti-Hero,Pop,243,243,1.0,Focused,Working Out,Wednesday,15,September
+2024-09-19 20:00:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,263,263,1.0,Chill,Working Out,Thursday,20,September
+2024-09-20 13:51:00,Arctic Monkeys,Do I Wanna Know?,Alternative,239,239,1.0,Focused,Partying,Friday,13,September
+2024-09-20 13:53:00,Kamasi Washington,The Garden Path,Jazz,185,185,1.0,Melancholic,Commuting,Friday,13,September
+2024-09-20 14:33:00,Kendrick Lamar,Money Trees,Hip Hop,266,266,1.0,Chill,Working,Friday,14,September
+2024-09-20 21:09:00,Fleet Foxes,Blue Ridge Mountains,Folk,224,224,1.0,Happy,Relaxing,Friday,21,September
+2024-09-20 21:22:00,Bonobo,Linked,Electronic,127,182,0.7,Chill,Relaxing,Friday,21,September
+2024-09-21 03:10:00,Arctic Monkeys,505,Alternative,181,181,1.0,Focused,Relaxing,Saturday,3,September
+2024-09-21 07:16:00,The Weeknd,Die For You,Pop,274,274,1.0,Focused,Working,Saturday,7,September
+2024-09-21 09:14:00,Arctic Monkeys,505,Alternative,219,219,1.0,Chill,Relaxing,Saturday,9,September
+2024-09-21 20:22:00,The Strokes,Bad Decisions,Alternative,264,264,1.0,Happy,Working Out,Saturday,20,September
+2024-09-22 17:30:00,Kamasi Washington,The Next Step,Jazz,191,191,1.0,Melancholic,Working Out,Sunday,17,September
+2024-09-22 18:08:00,Bonobo,Kerala,Electronic,297,297,1.0,Happy,Partying,Sunday,18,September
+2024-09-22 20:11:00,Bonobo,Kerala,Electronic,198,198,1.0,Melancholic,Partying,Sunday,20,September
+2024-09-23 01:52:00,Beach House,Space Song,Indie Rock,231,231,1.0,Chill,Working,Monday,1,September
+2024-09-23 05:55:00,Bonobo,Break Apart,Electronic,252,252,1.0,Energetic,Relaxing,Monday,5,September
+2024-09-23 14:54:00,Taylor Swift,Anti-Hero,Pop,263,263,1.0,Happy,Partying,Monday,14,September
+2024-09-23 17:36:00,The Strokes,Reptilia,Alternative,236,236,1.0,Energetic,Commuting,Monday,17,September
+2024-09-24 01:43:00,Kamasi Washington,Truth,Jazz,226,226,1.0,Chill,Working Out,Tuesday,1,September
+2024-09-24 03:21:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,194,194,1.0,Focused,Relaxing,Tuesday,3,September
+2024-09-24 05:14:00,Kendrick Lamar,DNA.,Hip Hop,296,296,1.0,Melancholic,Partying,Tuesday,5,September
+2024-09-24 08:47:00,The Weeknd,Starboy,Pop,189,189,1.0,Melancholic,Relaxing,Tuesday,8,September
+2024-09-24 10:54:00,Tame Impala,Lost in Yesterday,Indie Rock,261,261,1.0,Melancholic,Working Out,Tuesday,10,September
+2024-09-26 06:53:00,Bonobo,Kerala,Electronic,224,224,1.0,Focused,Commuting,Thursday,6,September
+2024-09-26 14:27:00,Kamasi Washington,Truth,Jazz,256,256,1.0,Melancholic,Partying,Thursday,14,September
+2024-09-27 16:10:00,Taylor Swift,August,Pop,255,255,1.0,Focused,Partying,Friday,16,September
+2024-09-27 17:58:00,Bonobo,Break Apart,Electronic,265,265,1.0,Chill,Relaxing,Friday,17,September
+2024-09-28 06:42:00,Taylor Swift,Anti-Hero,Pop,250,250,1.0,Melancholic,Relaxing,Saturday,6,September
+2024-09-28 23:50:00,Beach House,Lazuli,Indie Rock,264,264,1.0,Melancholic,Commuting,Saturday,23,September
+2024-09-29 14:31:00,Taylor Swift,Cardigan,Pop,184,184,1.0,Focused,Working,Sunday,14,September
+2024-09-30 02:36:00,Bonobo,Cirrus,Electronic,204,204,1.0,Focused,Commuting,Monday,2,September
+2024-09-30 07:14:00,Bonobo,Kerala,Electronic,260,260,1.0,Chill,Commuting,Monday,7,September
+2024-09-30 15:31:00,The Weeknd,Blinding Lights,Pop,267,267,1.0,Focused,Working Out,Monday,15,September
+2024-09-30 15:50:00,Tame Impala,The Less I Know the Better,Indie Rock,198,198,1.0,Happy,Relaxing,Monday,15,September
+2024-09-30 16:13:00,The Strokes,Someday,Alternative,288,288,1.0,Focused,Commuting,Monday,16,September
+2024-10-01 00:23:00,Tame Impala,The Less I Know the Better,Indie Rock,264,264,1.0,Melancholic,Commuting,Tuesday,0,October
+2024-10-01 03:28:00,Tame Impala,The Less I Know the Better,Indie Rock,274,274,1.0,Focused,Relaxing,Tuesday,3,October
+2024-10-01 09:41:00,Taylor Swift,August,Pop,274,274,1.0,Energetic,Relaxing,Tuesday,9,October
+2024-10-02 03:30:00,Fleet Foxes,Mykonos,Folk,299,299,1.0,Energetic,Working,Wednesday,3,October
+2024-10-02 05:08:00,Kendrick Lamar,DNA.,Hip Hop,234,234,1.0,Melancholic,Working,Wednesday,5,October
+2024-10-02 07:32:00,Taylor Swift,Cruel Summer,Pop,288,288,1.0,Focused,Working Out,Wednesday,7,October
+2024-10-02 07:36:00,Kendrick Lamar,Money Trees,Hip Hop,196,196,1.0,Focused,Working,Wednesday,7,October
+2024-10-03 04:06:00,The Strokes,Last Nite,Alternative,298,298,1.0,Happy,Commuting,Thursday,4,October
+2024-10-03 04:30:00,Beach House,On The Sea,Indie Rock,57,191,0.3,Happy,Partying,Thursday,4,October
+2024-10-03 05:43:00,The Strokes,Someday,Alternative,233,233,1.0,Happy,Working Out,Thursday,5,October
+2024-10-03 06:27:00,Bonobo,Linked,Electronic,149,298,0.5,Melancholic,Working Out,Thursday,6,October
+2024-10-03 23:14:00,Taylor Swift,Cruel Summer,Pop,272,272,1.0,Happy,Working,Thursday,23,October
+2024-10-03 23:25:00,The Strokes,Someday,Alternative,284,284,1.0,Happy,Working,Thursday,23,October
+2024-10-04 21:47:00,Bonobo,Linked,Electronic,181,181,1.0,Focused,Partying,Friday,21,October
+2024-10-05 08:26:00,Beach House,Myth,Indie Rock,182,182,1.0,Chill,Working Out,Saturday,8,October
+2024-10-05 11:33:00,Bonobo,Break Apart,Electronic,131,188,0.7,Melancholic,Partying,Saturday,11,October
+2024-10-05 16:59:00,The Strokes,Last Nite,Alternative,181,181,1.0,Focused,Working Out,Saturday,16,October
+2024-10-05 18:26:00,Beach House,Space Song,Indie Rock,222,222,1.0,Focused,Working Out,Saturday,18,October
+2024-10-06 03:14:00,Tame Impala,Let It Happen,Indie Rock,94,189,0.5,Melancholic,Commuting,Sunday,3,October
+2024-10-07 12:03:00,The Weeknd,Save Your Tears,Pop,207,297,0.7,Energetic,Relaxing,Monday,12,October
+2024-10-09 13:29:00,The Strokes,Bad Decisions,Alternative,265,265,1.0,Energetic,Working,Wednesday,13,October
+2024-10-10 02:48:00,Kamasi Washington,Truth,Jazz,295,295,1.0,Energetic,Working Out,Thursday,2,October
+2024-10-10 11:33:00,Arctic Monkeys,R U Mine?,Alternative,71,239,0.3,Melancholic,Partying,Thursday,11,October
+2024-10-10 17:08:00,Taylor Swift,Cruel Summer,Pop,297,297,1.0,Happy,Working Out,Thursday,17,October
+2024-10-11 13:00:00,Kendrick Lamar,Money Trees,Hip Hop,242,242,1.0,Melancholic,Partying,Friday,13,October
+2024-10-12 01:53:00,Kamasi Washington,Truth,Jazz,204,204,1.0,Focused,Commuting,Saturday,1,October
+2024-10-12 19:57:00,Arctic Monkeys,R U Mine?,Alternative,218,218,1.0,Focused,Working Out,Saturday,19,October
+2024-10-13 07:50:00,Kendrick Lamar,Alright,Hip Hop,235,235,1.0,Melancholic,Relaxing,Sunday,7,October
+2024-10-13 16:11:00,Arctic Monkeys,R U Mine?,Alternative,282,282,1.0,Chill,Relaxing,Sunday,16,October
+2024-10-13 22:06:00,Kamasi Washington,Truth,Jazz,182,182,1.0,Energetic,Partying,Sunday,22,October
+2024-10-14 04:03:00,The Weeknd,Die For You,Pop,260,260,1.0,Energetic,Relaxing,Monday,4,October
+2024-10-14 07:57:00,Arctic Monkeys,505,Alternative,142,285,0.5,Melancholic,Commuting,Monday,7,October
+2024-10-14 09:40:00,Kamasi Washington,The Garden Path,Jazz,248,248,1.0,Energetic,Partying,Monday,9,October
+2024-10-14 18:20:00,Arctic Monkeys,505,Alternative,230,230,1.0,Focused,Partying,Monday,18,October
+2024-10-15 00:38:00,Kendrick Lamar,N95,Hip Hop,267,267,1.0,Happy,Relaxing,Tuesday,0,October
+2024-10-15 16:05:00,The Strokes,Bad Decisions,Alternative,190,190,1.0,Energetic,Partying,Tuesday,16,October
+2024-10-16 03:26:00,Kamasi Washington,The Garden Path,Jazz,248,248,1.0,Energetic,Relaxing,Wednesday,3,October
+2024-10-16 04:41:00,The Weeknd,Save Your Tears,Pop,203,203,1.0,Energetic,Working Out,Wednesday,4,October
+2024-10-16 09:15:00,Bonobo,Linked,Electronic,297,297,1.0,Chill,Working Out,Wednesday,9,October
+2024-10-16 12:00:00,Arctic Monkeys,505,Alternative,238,238,1.0,Energetic,Relaxing,Wednesday,12,October
+2024-10-16 16:50:00,Kendrick Lamar,Alright,Hip Hop,271,271,1.0,Happy,Working,Wednesday,16,October
+2024-10-16 19:39:00,Bonobo,Cirrus,Electronic,274,274,1.0,Focused,Working Out,Wednesday,19,October
+2024-10-17 11:07:00,Bonobo,Break Apart,Electronic,118,236,0.5,Happy,Working,Thursday,11,October
+2024-10-17 14:03:00,The Weeknd,Starboy,Pop,192,192,1.0,Melancholic,Commuting,Thursday,14,October
+2024-10-17 17:27:00,Fleet Foxes,White Winter Hymnal,Folk,63,211,0.3,Happy,Partying,Thursday,17,October
+2024-10-17 20:15:00,Tame Impala,Lost in Yesterday,Indie Rock,197,197,1.0,Focused,Relaxing,Thursday,20,October
+2024-10-18 01:49:00,Arctic Monkeys,Do I Wanna Know?,Alternative,189,189,1.0,Focused,Partying,Friday,1,October
+2024-10-18 07:55:00,Arctic Monkeys,Do I Wanna Know?,Alternative,220,220,1.0,Focused,Partying,Friday,7,October
+2024-10-18 19:02:00,Kendrick Lamar,Alright,Hip Hop,86,287,0.3,Happy,Partying,Friday,19,October
+2024-10-19 00:59:00,Kamasi Washington,The Garden Path,Jazz,278,278,1.0,Focused,Relaxing,Saturday,0,October
+2024-10-19 23:03:00,The Strokes,Reptilia,Alternative,163,233,0.7,Chill,Commuting,Saturday,23,October
+2024-10-20 03:32:00,The Strokes,Someday,Alternative,196,196,1.0,Happy,Commuting,Sunday,3,October
+2024-10-20 12:01:00,Kamasi Washington,Truth,Jazz,193,193,1.0,Melancholic,Working Out,Sunday,12,October
+2024-10-20 23:50:00,Arctic Monkeys,Do I Wanna Know?,Alternative,188,188,1.0,Chill,Commuting,Sunday,23,October
+2024-10-21 12:47:00,Kendrick Lamar,Money Trees,Hip Hop,220,220,1.0,Melancholic,Partying,Monday,12,October
+2024-10-21 21:12:00,Arctic Monkeys,Do I Wanna Know?,Alternative,204,204,1.0,Energetic,Partying,Monday,21,October
+2024-10-21 22:44:00,The Weeknd,Blinding Lights,Pop,124,249,0.5,Melancholic,Relaxing,Monday,22,October
+2024-10-22 14:19:00,Tame Impala,Let It Happen,Indie Rock,181,181,1.0,Focused,Working Out,Tuesday,14,October
+2024-10-22 21:10:00,Kendrick Lamar,DNA.,Hip Hop,259,259,1.0,Chill,Working,Tuesday,21,October
+2024-10-22 23:08:00,Tame Impala,The Less I Know the Better,Indie Rock,279,279,1.0,Melancholic,Commuting,Tuesday,23,October
+2024-10-23 05:43:00,Fleet Foxes,White Winter Hymnal,Folk,268,268,1.0,Chill,Relaxing,Wednesday,5,October
+2024-10-23 07:14:00,Kendrick Lamar,Money Trees,Hip Hop,252,252,1.0,Focused,Working,Wednesday,7,October
+2024-10-23 16:36:00,The Strokes,Someday,Alternative,191,191,1.0,Melancholic,Working Out,Wednesday,16,October
+2024-10-24 14:45:00,Tame Impala,Lost in Yesterday,Indie Rock,252,252,1.0,Focused,Relaxing,Thursday,14,October
+2024-10-24 20:30:00,Kamasi Washington,Truth,Jazz,198,198,1.0,Focused,Working Out,Thursday,20,October
+2024-10-25 09:00:00,Kendrick Lamar,DNA.,Hip Hop,206,206,1.0,Melancholic,Working Out,Friday,9,October
+2024-10-25 10:05:00,Fleet Foxes,Blue Ridge Mountains,Folk,279,279,1.0,Happy,Partying,Friday,10,October
+2024-10-25 11:22:00,Taylor Swift,August,Pop,290,290,1.0,Focused,Relaxing,Friday,11,October
+2024-10-26 00:39:00,Fleet Foxes,Blue Ridge Mountains,Folk,266,266,1.0,Chill,Relaxing,Saturday,0,October
+2024-10-26 19:22:00,Kamasi Washington,The Garden Path,Jazz,277,277,1.0,Focused,Commuting,Saturday,19,October
+2024-10-27 03:04:00,Arctic Monkeys,505,Alternative,238,238,1.0,Melancholic,Working,Sunday,3,October
+2024-10-27 05:15:00,Taylor Swift,Anti-Hero,Pop,194,194,1.0,Chill,Working,Sunday,5,October
+2024-10-27 07:10:00,Tame Impala,Lost in Yesterday,Indie Rock,185,185,1.0,Happy,Working Out,Sunday,7,October
+2024-10-27 10:59:00,The Weeknd,Blinding Lights,Pop,230,230,1.0,Melancholic,Commuting,Sunday,10,October
+2024-10-27 14:19:00,The Strokes,Someday,Alternative,184,184,1.0,Happy,Relaxing,Sunday,14,October
+2024-10-27 15:41:00,Kamasi Washington,The Garden Path,Jazz,257,257,1.0,Focused,Commuting,Sunday,15,October
+2024-10-27 16:35:00,Kamasi Washington,The Next Step,Jazz,204,204,1.0,Chill,Relaxing,Sunday,16,October
+2024-10-27 22:54:00,The Strokes,Someday,Alternative,192,275,0.7,Happy,Partying,Sunday,22,October
+2024-10-28 01:41:00,The Weeknd,Starboy,Pop,203,203,1.0,Happy,Partying,Monday,1,October
+2024-10-29 09:03:00,Kendrick Lamar,N95,Hip Hop,239,239,1.0,Happy,Partying,Tuesday,9,October
+2024-10-29 16:00:00,Tame Impala,Let It Happen,Indie Rock,259,259,1.0,Energetic,Commuting,Tuesday,16,October
+2024-10-30 04:46:00,Fleet Foxes,Mykonos,Folk,269,269,1.0,Melancholic,Working Out,Wednesday,4,October
+2024-10-30 05:04:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,258,258,1.0,Melancholic,Relaxing,Wednesday,5,October
+2024-10-30 05:50:00,Taylor Swift,Cruel Summer,Pop,229,229,1.0,Melancholic,Working,Wednesday,5,October
+2024-10-30 13:00:00,Arctic Monkeys,505,Alternative,241,241,1.0,Happy,Working,Wednesday,13,October
+2024-10-30 19:10:00,Arctic Monkeys,Do I Wanna Know?,Alternative,272,272,1.0,Happy,Working Out,Wednesday,19,October
+2024-10-31 16:24:00,Kendrick Lamar,N95,Hip Hop,225,225,1.0,Focused,Working,Thursday,16,October
+2024-10-31 16:35:00,The Strokes,Last Nite,Alternative,191,191,1.0,Energetic,Working,Thursday,16,October
+2024-10-31 20:14:00,Kendrick Lamar,N95,Hip Hop,213,213,1.0,Melancholic,Relaxing,Thursday,20,October
+2024-10-31 20:16:00,Tame Impala,Let It Happen,Indie Rock,202,202,1.0,Focused,Commuting,Thursday,20,October
+2024-11-01 05:03:00,Tame Impala,Let It Happen,Indie Rock,262,262,1.0,Happy,Partying,Friday,5,November
+2024-11-01 13:35:00,Kendrick Lamar,Alright,Hip Hop,183,183,1.0,Melancholic,Partying,Friday,13,November
+2024-11-02 06:48:00,Tame Impala,Let It Happen,Indie Rock,238,238,1.0,Focused,Partying,Saturday,6,November
+2024-11-02 18:39:00,Kamasi Washington,The Next Step,Jazz,218,218,1.0,Happy,Working,Saturday,18,November
+2024-11-03 02:44:00,Fleet Foxes,Blue Ridge Mountains,Folk,107,214,0.5,Melancholic,Working Out,Sunday,2,November
+2024-11-03 12:46:00,The Strokes,Last Nite,Alternative,288,288,1.0,Melancholic,Working,Sunday,12,November
+2024-11-05 06:38:00,Bonobo,Kerala,Electronic,264,264,1.0,Focused,Relaxing,Tuesday,6,November
+2024-11-06 03:56:00,The Strokes,Reptilia,Alternative,292,292,1.0,Happy,Relaxing,Wednesday,3,November
+2024-11-06 14:04:00,Taylor Swift,Cardigan,Pop,268,268,1.0,Energetic,Commuting,Wednesday,14,November
+2024-11-06 20:00:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,191,191,1.0,Energetic,Working Out,Wednesday,20,November
+2024-11-06 20:03:00,The Weeknd,Die For You,Pop,254,254,1.0,Happy,Commuting,Wednesday,20,November
+2024-11-07 08:25:00,Beach House,Lazuli,Indie Rock,224,224,1.0,Melancholic,Commuting,Thursday,8,November
+2024-11-07 16:28:00,Arctic Monkeys,505,Alternative,215,215,1.0,Energetic,Commuting,Thursday,16,November
+2024-11-07 17:14:00,Taylor Swift,Cruel Summer,Pop,217,217,1.0,Chill,Partying,Thursday,17,November
+2024-11-07 19:02:00,Arctic Monkeys,Do I Wanna Know?,Alternative,211,211,1.0,Focused,Working,Thursday,19,November
+2024-11-08 17:48:00,The Strokes,Reptilia,Alternative,219,219,1.0,Melancholic,Working,Friday,17,November
+2024-11-09 05:47:00,Kendrick Lamar,N95,Hip Hop,255,255,1.0,Energetic,Working,Saturday,5,November
+2024-11-09 06:42:00,The Strokes,Bad Decisions,Alternative,273,273,1.0,Energetic,Relaxing,Saturday,6,November
+2024-11-09 07:17:00,Kendrick Lamar,Money Trees,Hip Hop,201,201,1.0,Happy,Commuting,Saturday,7,November
+2024-11-09 21:09:00,Bonobo,Break Apart,Electronic,237,237,1.0,Focused,Relaxing,Saturday,21,November
+2024-11-10 06:38:00,Taylor Swift,Anti-Hero,Pop,198,198,1.0,Energetic,Relaxing,Sunday,6,November
+2024-11-10 14:08:00,Bonobo,Linked,Electronic,291,291,1.0,Melancholic,Working Out,Sunday,14,November
+2024-11-11 03:50:00,Arctic Monkeys,505,Alternative,189,189,1.0,Focused,Working Out,Monday,3,November
+2024-11-11 08:57:00,Bonobo,Kerala,Electronic,248,248,1.0,Chill,Relaxing,Monday,8,November
+2024-11-11 14:45:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,75,251,0.3,Focused,Commuting,Monday,14,November
+2024-11-11 16:29:00,The Strokes,Last Nite,Alternative,182,182,1.0,Focused,Working,Monday,16,November
+2024-11-12 01:02:00,Bonobo,Kerala,Electronic,217,217,1.0,Melancholic,Commuting,Tuesday,1,November
+2024-11-12 06:33:00,The Strokes,Reptilia,Alternative,185,185,1.0,Happy,Partying,Tuesday,6,November
+2024-11-12 12:36:00,Beach House,Myth,Indie Rock,248,248,1.0,Energetic,Working,Tuesday,12,November
+2024-11-12 15:28:00,Taylor Swift,August,Pop,94,189,0.5,Melancholic,Commuting,Tuesday,15,November
+2024-11-13 01:11:00,Tame Impala,The Less I Know the Better,Indie Rock,278,278,1.0,Focused,Working,Wednesday,1,November
+2024-11-14 07:25:00,The Weeknd,Save Your Tears,Pop,208,208,1.0,Chill,Partying,Thursday,7,November
+2024-11-15 10:54:00,Bonobo,Break Apart,Electronic,232,232,1.0,Chill,Working Out,Friday,10,November
+2024-11-15 13:48:00,The Strokes,Reptilia,Alternative,238,238,1.0,Happy,Working,Friday,13,November
+2024-11-15 16:17:00,Bonobo,Cirrus,Electronic,185,185,1.0,Melancholic,Partying,Friday,16,November
+2024-11-15 17:05:00,Arctic Monkeys,Do I Wanna Know?,Alternative,244,244,1.0,Happy,Commuting,Friday,17,November
+2024-11-15 18:54:00,Taylor Swift,Anti-Hero,Pop,199,199,1.0,Energetic,Working,Friday,18,November
+2024-11-16 00:29:00,Beach House,Space Song,Indie Rock,275,275,1.0,Melancholic,Commuting,Saturday,0,November
+2024-11-16 04:39:00,The Weeknd,Starboy,Pop,265,265,1.0,Chill,Working,Saturday,4,November
+2024-11-16 07:07:00,The Strokes,Someday,Alternative,246,246,1.0,Happy,Commuting,Saturday,7,November
+2024-11-16 17:03:00,Arctic Monkeys,505,Alternative,98,196,0.5,Energetic,Relaxing,Saturday,17,November
+2024-11-16 21:32:00,Arctic Monkeys,Do I Wanna Know?,Alternative,261,261,1.0,Energetic,Commuting,Saturday,21,November
+2024-11-17 09:05:00,Kamasi Washington,The Garden Path,Jazz,72,242,0.3,Chill,Working,Sunday,9,November
+2024-11-18 00:05:00,Beach House,Myth,Indie Rock,275,275,1.0,Happy,Relaxing,Monday,0,November
+2024-11-19 03:17:00,Taylor Swift,August,Pop,276,276,1.0,Chill,Commuting,Tuesday,3,November
+2024-11-19 06:45:00,Kendrick Lamar,Alright,Hip Hop,208,208,1.0,Energetic,Working,Tuesday,6,November
+2024-11-19 07:50:00,Bonobo,Break Apart,Electronic,238,238,1.0,Happy,Relaxing,Tuesday,7,November
+2024-11-19 17:12:00,Kendrick Lamar,Money Trees,Hip Hop,75,250,0.3,Melancholic,Working Out,Tuesday,17,November
+2024-11-20 02:45:00,Beach House,Lazuli,Indie Rock,106,213,0.5,Focused,Working Out,Wednesday,2,November
+2024-11-20 06:40:00,Kamasi Washington,The Garden Path,Jazz,272,272,1.0,Focused,Relaxing,Wednesday,6,November
+2024-11-20 11:23:00,Kendrick Lamar,N95,Hip Hop,294,294,1.0,Happy,Working Out,Wednesday,11,November
+2024-11-20 21:15:00,Fleet Foxes,White Winter Hymnal,Folk,261,261,1.0,Melancholic,Commuting,Wednesday,21,November
+2024-11-21 07:31:00,Bonobo,Break Apart,Electronic,277,277,1.0,Happy,Relaxing,Thursday,7,November
+2024-11-21 12:11:00,Arctic Monkeys,505,Alternative,228,228,1.0,Energetic,Partying,Thursday,12,November
+2024-11-21 16:17:00,The Strokes,Someday,Alternative,249,249,1.0,Focused,Working,Thursday,16,November
+2024-11-22 00:10:00,Tame Impala,Let It Happen,Indie Rock,254,254,1.0,Melancholic,Partying,Friday,0,November
+2024-11-22 20:01:00,Kamasi Washington,The Garden Path,Jazz,263,263,1.0,Focused,Working,Friday,20,November
+2024-11-23 06:09:00,The Strokes,Last Nite,Alternative,152,218,0.7,Melancholic,Working Out,Saturday,6,November
+2024-11-23 13:18:00,Tame Impala,Borderline,Indie Rock,263,263,1.0,Happy,Commuting,Saturday,13,November
+2024-11-23 23:35:00,The Weeknd,Starboy,Pop,226,226,1.0,Focused,Partying,Saturday,23,November
+2024-11-24 00:47:00,Kendrick Lamar,DNA.,Hip Hop,223,223,1.0,Happy,Working,Sunday,0,November
+2024-11-24 07:39:00,Tame Impala,Borderline,Indie Rock,292,292,1.0,Energetic,Commuting,Sunday,7,November
+2024-11-24 09:30:00,The Strokes,Someday,Alternative,280,280,1.0,Happy,Commuting,Sunday,9,November
+2024-11-24 15:34:00,The Strokes,The Adults Are Talking,Alternative,193,193,1.0,Chill,Commuting,Sunday,15,November
+2024-11-24 21:40:00,Bonobo,Linked,Electronic,208,208,1.0,Melancholic,Relaxing,Sunday,21,November
+2024-11-24 22:16:00,The Strokes,Someday,Alternative,180,180,1.0,Happy,Partying,Sunday,22,November
+2024-11-26 03:50:00,Beach House,Space Song,Indie Rock,163,233,0.7,Energetic,Working Out,Tuesday,3,November
+2024-11-26 06:13:00,Bonobo,Cirrus,Electronic,237,237,1.0,Chill,Working Out,Tuesday,6,November
+2024-11-26 06:35:00,The Strokes,Reptilia,Alternative,179,256,0.7,Focused,Working,Tuesday,6,November
+2024-11-26 08:12:00,The Weeknd,Blinding Lights,Pop,172,246,0.7,Melancholic,Partying,Tuesday,8,November
+2024-11-26 19:44:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,292,292,1.0,Happy,Working Out,Tuesday,19,November
+2024-11-27 10:26:00,The Weeknd,Starboy,Pop,219,219,1.0,Energetic,Commuting,Wednesday,10,November
+2024-11-27 10:32:00,Bonobo,Linked,Electronic,218,218,1.0,Focused,Partying,Wednesday,10,November
+2024-11-27 18:26:00,Kamasi Washington,The Garden Path,Jazz,214,214,1.0,Focused,Partying,Wednesday,18,November
+2024-11-27 22:47:00,Fleet Foxes,Mykonos,Folk,288,288,1.0,Chill,Working,Wednesday,22,November
+2024-11-28 00:28:00,Kendrick Lamar,Money Trees,Hip Hop,82,276,0.3,Focused,Partying,Thursday,0,November
+2024-11-28 14:57:00,Kendrick Lamar,N95,Hip Hop,221,221,1.0,Happy,Working,Thursday,14,November
+2024-11-28 16:43:00,Bonobo,Cirrus,Electronic,279,279,1.0,Focused,Commuting,Thursday,16,November
+2024-11-28 23:38:00,The Strokes,Last Nite,Alternative,245,245,1.0,Chill,Partying,Thursday,23,November
+2024-11-30 22:35:00,Kamasi Washington,Truth,Jazz,210,210,1.0,Energetic,Partying,Saturday,22,November
+2024-12-01 01:28:00,Tame Impala,Borderline,Indie Rock,297,297,1.0,Happy,Partying,Sunday,1,December
+2024-12-02 04:10:00,The Strokes,The Adults Are Talking,Alternative,186,186,1.0,Chill,Working Out,Monday,4,December
+2024-12-02 20:57:00,Tame Impala,Borderline,Indie Rock,233,233,1.0,Focused,Relaxing,Monday,20,December
+2024-12-03 02:50:00,Arctic Monkeys,Why Did You Only Call Me?,Alternative,277,277,1.0,Energetic,Commuting,Tuesday,2,December
+2024-12-03 06:47:00,Taylor Swift,Anti-Hero,Pop,240,240,1.0,Melancholic,Working,Tuesday,6,December
+2024-12-03 07:57:00,Beach House,Space Song,Indie Rock,228,228,1.0,Happy,Working Out,Tuesday,7,December
+2024-12-03 14:14:00,Tame Impala,Borderline,Indie Rock,246,246,1.0,Chill,Relaxing,Tuesday,14,December
+2024-12-04 05:10:00,Arctic Monkeys,Do I Wanna Know?,Alternative,299,299,1.0,Focused,Working,Wednesday,5,December
+2024-12-04 13:05:00,Tame Impala,Borderline,Indie Rock,290,290,1.0,Happy,Working Out,Wednesday,13,December
+2024-12-04 14:42:00,Arctic Monkeys,505,Alternative,290,290,1.0,Chill,Partying,Wednesday,14,December
+2024-12-04 22:11:00,Arctic Monkeys,Do I Wanna Know?,Alternative,286,286,1.0,Happy,Working Out,Wednesday,22,December
+2024-12-04 22:27:00,Tame Impala,Borderline,Indie Rock,61,205,0.3,Melancholic,Working,Wednesday,22,December
+2024-12-05 04:55:00,Bonobo,Break Apart,Electronic,289,289,1.0,Happy,Working Out,Thursday,4,December
+2024-12-05 10:05:00,The Strokes,Reptilia,Alternative,265,265,1.0,Energetic,Relaxing,Thursday,10,December
+2024-12-05 22:56:00,Beach House,Myth,Indie Rock,86,288,0.3,Energetic,Partying,Thursday,22,December
+2024-12-06 07:05:00,The Strokes,Bad Decisions,Alternative,212,212,1.0,Focused,Relaxing,Friday,7,December
+2024-12-06 07:22:00,Fleet Foxes,White Winter Hymnal,Folk,192,192,1.0,Chill,Partying,Friday,7,December
+2024-12-06 23:56:00,Fleet Foxes,White Winter Hymnal,Folk,193,277,0.7,Chill,Working,Friday,23,December
+2024-12-07 12:58:00,Tame Impala,Lost in Yesterday,Indie Rock,235,235,1.0,Focused,Relaxing,Saturday,12,December
+2024-12-07 13:10:00,Tame Impala,The Less I Know the Better,Indie Rock,281,281,1.0,Chill,Working Out,Saturday,13,December
+2024-12-07 18:28:00,The Strokes,Last Nite,Alternative,282,282,1.0,Chill,Commuting,Saturday,18,December
+2024-12-07 21:13:00,Tame Impala,Lost in Yesterday,Indie Rock,57,190,0.3,Energetic,Working Out,Saturday,21,December
+2024-12-08 00:23:00,Kamasi Washington,Truth,Jazz,63,211,0.3,Melancholic,Working,Sunday,0,December
+2024-12-08 04:30:00,Kendrick Lamar,DNA.,Hip Hop,298,298,1.0,Melancholic,Commuting,Sunday,4,December
+2024-12-08 09:37:00,Beach House,Space Song,Indie Rock,57,191,0.3,Chill,Partying,Sunday,9,December
+2024-12-08 11:18:00,The Strokes,The Adults Are Talking,Alternative,231,231,1.0,Melancholic,Relaxing,Sunday,11,December
+2024-12-08 19:51:00,Beach House,Myth,Indie Rock,198,198,1.0,Happy,Relaxing,Sunday,19,December
+2024-12-08 23:36:00,The Strokes,Someday,Alternative,242,242,1.0,Focused,Working,Sunday,23,December
+2024-12-09 02:40:00,Arctic Monkeys,Do I Wanna Know?,Alternative,183,183,1.0,Focused,Commuting,Monday,2,December
+2024-12-09 18:10:00,Arctic Monkeys,505,Alternative,193,193,1.0,Melancholic,Working Out,Monday,18,December
+2024-12-10 00:35:00,The Weeknd,Die For You,Pop,92,185,0.5,Energetic,Working Out,Tuesday,0,December
+2024-12-10 09:19:00,Beach House,Lazuli,Indie Rock,284,284,1.0,Focused,Commuting,Tuesday,9,December
+2024-12-10 11:17:00,Tame Impala,The Less I Know the Better,Indie Rock,295,295,1.0,Happy,Working Out,Tuesday,11,December
+2024-12-10 19:07:00,Tame Impala,The Less I Know the Better,Indie Rock,296,296,1.0,Energetic,Working Out,Tuesday,19,December
+2024-12-10 20:14:00,Bonobo,Cirrus,Electronic,171,245,0.7,Happy,Commuting,Tuesday,20,December
+2024-12-11 19:12:00,Bonobo,Cirrus,Electronic,186,186,1.0,Focused,Partying,Wednesday,19,December
+2024-12-12 10:23:00,The Weeknd,Die For You,Pop,205,205,1.0,Chill,Partying,Thursday,10,December
+2024-12-12 14:35:00,Taylor Swift,Cardigan,Pop,224,224,1.0,Energetic,Commuting,Thursday,14,December
+2024-12-12 21:12:00,Tame Impala,Lost in Yesterday,Indie Rock,277,277,1.0,Chill,Partying,Thursday,21,December
+2024-12-13 08:41:00,Kendrick Lamar,N95,Hip Hop,214,214,1.0,Happy,Working Out,Friday,8,December
+2024-12-13 10:35:00,Tame Impala,Let It Happen,Indie Rock,230,230,1.0,Chill,Working Out,Friday,10,December
+2024-12-13 16:13:00,Fleet Foxes,Blue Ridge Mountains,Folk,267,267,1.0,Melancholic,Working,Friday,16,December
+2024-12-13 19:24:00,Bonobo,Linked,Electronic,212,212,1.0,Melancholic,Commuting,Friday,19,December
+2024-12-16 08:12:00,Kamasi Washington,Truth,Jazz,158,226,0.7,Happy,Working Out,Monday,8,December
+2024-12-16 22:30:00,Beach House,On The Sea,Indie Rock,189,189,1.0,Chill,Relaxing,Monday,22,December
+2024-12-17 03:39:00,The Strokes,The Adults Are Talking,Alternative,203,203,1.0,Happy,Relaxing,Tuesday,3,December
+2024-12-17 18:34:00,Fleet Foxes,White Winter Hymnal,Folk,283,283,1.0,Melancholic,Working,Tuesday,18,December
+2024-12-18 01:21:00,Bonobo,Kerala,Electronic,228,228,1.0,Melancholic,Working Out,Wednesday,1,December
+2024-12-18 18:34:00,Kamasi Washington,The Next Step,Jazz,265,265,1.0,Focused,Commuting,Wednesday,18,December
+2024-12-18 21:35:00,Tame Impala,Lost in Yesterday,Indie Rock,248,248,1.0,Melancholic,Commuting,Wednesday,21,December
+2024-12-19 17:54:00,The Weeknd,Save Your Tears,Pop,267,267,1.0,Chill,Relaxing,Thursday,17,December
+2024-12-19 22:28:00,Fleet Foxes,Blue Ridge Mountains,Folk,203,291,0.7,Focused,Commuting,Thursday,22,December
+2024-12-19 23:33:00,Kendrick Lamar,N95,Hip Hop,213,213,1.0,Melancholic,Working,Thursday,23,December
+2024-12-20 01:30:00,Kendrick Lamar,N95,Hip Hop,120,240,0.5,Happy,Commuting,Friday,1,December
+2024-12-20 16:16:00,Beach House,Space Song,Indie Rock,213,213,1.0,Energetic,Partying,Friday,16,December
+2024-12-20 18:34:00,Kamasi Washington,The Garden Path,Jazz,221,221,1.0,Happy,Working Out,Friday,18,December
+2024-12-21 05:11:00,Kendrick Lamar,Money Trees,Hip Hop,247,247,1.0,Chill,Partying,Saturday,5,December
+2024-12-21 15:53:00,Tame Impala,Let It Happen,Indie Rock,236,236,1.0,Melancholic,Partying,Saturday,15,December
+2024-12-21 20:38:00,Arctic Monkeys,R U Mine?,Alternative,244,244,1.0,Focused,Working Out,Saturday,20,December
+2024-12-21 21:33:00,Beach House,Lazuli,Indie Rock,287,287,1.0,Focused,Relaxing,Saturday,21,December
+2024-12-22 10:47:00,Kamasi Washington,The Garden Path,Jazz,263,263,1.0,Focused,Working Out,Sunday,10,December
+2024-12-22 11:13:00,Beach House,Lazuli,Indie Rock,257,257,1.0,Focused,Partying,Sunday,11,December
+2024-12-22 11:19:00,Beach House,Space Song,Indie Rock,238,238,1.0,Focused,Commuting,Sunday,11,December
+2024-12-22 18:38:00,Kendrick Lamar,DNA.,Hip Hop,283,283,1.0,Energetic,Commuting,Sunday,18,December
+2024-12-23 22:47:00,Taylor Swift,Cardigan,Pop,188,188,1.0,Focused,Relaxing,Monday,22,December
+2024-12-24 02:53:00,Fleet Foxes,Blue Ridge Mountains,Folk,198,198,1.0,Melancholic,Partying,Tuesday,2,December
+2024-12-24 10:03:00,Tame Impala,The Less I Know the Better,Indie Rock,244,244,1.0,Melancholic,Partying,Tuesday,10,December
+2024-12-24 17:00:00,Fleet Foxes,Mykonos,Folk,239,239,1.0,Melancholic,Commuting,Tuesday,17,December
+2024-12-24 18:12:00,Bonobo,Cirrus,Electronic,248,248,1.0,Focused,Working,Tuesday,18,December
+2024-12-24 18:37:00,The Strokes,The Adults Are Talking,Alternative,204,204,1.0,Happy,Partying,Tuesday,18,December
+2024-12-26 01:30:00,Tame Impala,The Less I Know the Better,Indie Rock,288,288,1.0,Happy,Commuting,Thursday,1,December
+2024-12-26 08:15:00,Kendrick Lamar,N95,Hip Hop,239,239,1.0,Focused,Relaxing,Thursday,8,December
+2024-12-27 02:24:00,Fleet Foxes,Mykonos,Folk,237,237,1.0,Melancholic,Partying,Friday,2,December
+2024-12-27 04:34:00,Beach House,On The Sea,Indie Rock,251,251,1.0,Happy,Commuting,Friday,4,December
+2024-12-27 11:47:00,Bonobo,Cirrus,Electronic,239,239,1.0,Focused,Partying,Friday,11,December
+2024-12-27 19:05:00,Bonobo,Linked,Electronic,273,273,1.0,Melancholic,Commuting,Friday,19,December
+2024-12-28 02:30:00,Arctic Monkeys,505,Alternative,279,279,1.0,Focused,Partying,Saturday,2,December
+2024-12-28 11:58:00,Bonobo,Cirrus,Electronic,110,221,0.5,Chill,Commuting,Saturday,11,December
+2024-12-28 13:10:00,Bonobo,Kerala,Electronic,220,220,1.0,Focused,Commuting,Saturday,13,December
+2024-12-28 14:34:00,Taylor Swift,Anti-Hero,Pop,87,290,0.3,Focused,Working,Saturday,14,December
+2024-12-28 16:04:00,Arctic Monkeys,Do I Wanna Know?,Alternative,241,241,1.0,Happy,Commuting,Saturday,16,December
+2024-12-29 01:00:00,Bonobo,Linked,Electronic,205,205,1.0,Chill,Relaxing,Sunday,1,December
+2024-12-29 01:48:00,Tame Impala,Lost in Yesterday,Indie Rock,277,277,1.0,Melancholic,Working Out,Sunday,1,December
+2024-12-29 09:33:00,Tame Impala,Let It Happen,Indie Rock,192,192,1.0,Happy,Relaxing,Sunday,9,December
+2024-12-29 10:01:00,The Strokes,Bad Decisions,Alternative,272,272,1.0,Happy,Relaxing,Sunday,10,December
+2024-12-29 10:55:00,Arctic Monkeys,Do I Wanna Know?,Alternative,195,195,1.0,Happy,Relaxing,Sunday,10,December
+2024-12-29 19:26:00,Beach House,Myth,Indie Rock,203,203,1.0,Energetic,Partying,Sunday,19,December
+2024-12-30 00:53:00,The Strokes,Reptilia,Alternative,261,261,1.0,Happy,Commuting,Monday,0,December
+2024-12-30 15:09:00,The Strokes,Someday,Alternative,207,207,1.0,Energetic,Working,Monday,15,December
+2024-12-30 16:14:00,The Weeknd,Die For You,Pop,224,224,1.0,Energetic,Relaxing,Monday,16,December
