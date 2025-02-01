@@ -7,7 +7,6 @@ import re
 connection = sqlite3.connect('movies.db')
 cursor = connection.cursor()
 
-cursor.execute("DROP TABLE IF EXISTS movies")
 cursor.execute('''CREATE TABLE IF NOT EXISTS movies (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT,
