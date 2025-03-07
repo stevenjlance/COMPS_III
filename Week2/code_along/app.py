@@ -1,4 +1,4 @@
-# 4. 4. Define a `Product` class
+# 4. Define a `Product` class
 class Product:
     # 5. Define constructor with names (String), price (float), and sku (int).
     def __init__(self, name, price, sku):
